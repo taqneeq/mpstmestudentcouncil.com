@@ -33,7 +33,7 @@ export default function MobileMenu() {
   return (
     <div className="md:hidden">
       {/* Hamburger button */}
-      <button
+      {/* <button
         ref={trigger}
         className={`hamburger ${mobileNavOpen && 'active'}`}
         aria-controls="mobile-nav"
@@ -50,7 +50,7 @@ export default function MobileMenu() {
           <rect y="11" width="24" height="2" rx="1" />
           <rect y="18" width="24" height="2" rx="1" />
         </svg>
-      </button>
+      </button> */}
 
       {/*Mobile navigation */}
       <nav

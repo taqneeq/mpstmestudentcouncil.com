@@ -15,11 +15,11 @@ export default function Footer() {
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
-                {/* Logo */}
+               More than just a council {/* Logo */}
                 <Image  src={logo}  alt="Features 03" width={60} height={60} />
 
               </div>
-              <div className="text-gray-400"> More than just a council </div>
+              <div className="text-gray-400">  </div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
