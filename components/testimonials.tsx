@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import GeneralTest from '@/public/images/testimonial-00.jpg'
-import soham from '@/public/images/oldimages/soham.jpeg'
+import soham from '@/public/images/oldimages/Soham.jpeg'
 import tanya from '@/public/images/oldimages/Tanya.jpeg'
 import nidhi from '@/public/images/oldimages/Nidhi.jpg'
-import parth from '@/public/images/oldimages/Parth.png'
+import parth from '@/public/images/oldimages/parth.jpeg'
 
 export default function Testimonials() {
   return (
