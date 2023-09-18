@@ -13,14 +13,14 @@ export default function Banner() {
             <div className="text-slate-500 inline-flex">
               <a
                 className="font-medium hover:underline text-slate-50"
-                href="https://prabir.in"
+                href="https://mpstmestudentchapters.com"
                 target="_blank"
                 rel="noreferrer"
               >
                 Check<span className="hidden sm:inline"> Our Latest Event</span>
               </a>{' '}
               <span className="italic px-1.5">or</span>{' '}
-              <a className="font-medium hover:underline text-emerald-400" href="https://prabir.in" target="_blank" rel="noreferrer">
+              <a className="font-medium hover:underline text-emerald-400" href="https://mpstmestudentchapters.com" target="_blank" rel="noreferrer">
                 Check Our Newsletter
               </a>
             </div>
