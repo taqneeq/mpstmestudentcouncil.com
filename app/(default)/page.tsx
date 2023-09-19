@@ -45,73 +45,97 @@ export default function Home() {
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <div className="spacing"></div>
-                <Image className="rounded-full" src={TRC} width={180} height={180} alt="Testimonial 02" />
+                <div className="spacing-1"></div>
+                <a href="/committees/FineArts/cq">
+                <Image className="rounded-full" src={cq} width={180} height={180} alt="Testimonial 02" />
+                  </a>
                 </div>
               </div>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Tech And Research Cell </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
+                <cite className="text-gray-200 not-italic"> Colloquium  </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
             </div>
-            <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
-              <div>
-                <div className="relative inline-flex flex-col mb-4">
-                <Image className="rounded-full" src={SI} width={150} height={150} alt="Testimonial 02" />
-                </div>
-              </div>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Social Impact </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
-              </div>
-            </div>
-            <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
-              <div>
-                <div className="relative inline-flex flex-col mb-4">
 
-                <Image className="rounded-full" src={eb} width={180} height={180} alt="Testimonial 02" />
-                  
-                </div>
-              </div>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Editorial Board</cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
-              </div>
-            </div>
+
+
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
                 <div className="spacing-1"></div>
-
-                <Image className="rounded-full" src={sports} width={180} height={180} alt="Testimonial 02" />
-            
-                </div>
-              </div>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Sports committee </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
-              </div>
-            </div>
-            <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
-              <div>
-                <div className="relative inline-flex flex-col mb-4">
-                <div className="spacing-1"></div>
-
+                <a href="/committees/FineArts/cultural">
                 <Image className="rounded-full" src={cultural} width={180} height={180} alt="Testimonial 02" />
-                  
+                  </a>
                 </div>
               </div>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Cultural committee </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
             </div>
+            
+            <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+              <div>
+                <div className="relative inline-flex flex-col mb-4">
+                <a href="/committees/Editorial/edb">
+                <Image className="rounded-full" src={eb} width={180} height={180} alt="Testimonial 02" />
+                  </a>
+                </div>
+              </div>
+
+              
+              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+                <cite className="text-gray-200 not-italic">Editorial Board</cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
+              </div>
+            </div>
+
+            
+
+
+
+
+
+
+
+            <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+              <div>
+                <div className="relative inline-flex flex-col mb-4">
+                <a href="/committees/Social/SI">
+                <Image className="rounded-full" src={SI} width={150} height={150} alt="Testimonial 02" />
+            
+                              </a>
+ </div>
+              </div>
+              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+                <cite className="text-gray-200 not-italic">Social Impact </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
+              </div>
+            </div>
+     
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
                 <div className="spacing-1"></div>
-
-                <Image className="rounded-full" src={cq} width={180} height={180} alt="Testimonial 02" />
-                  
+                <a href="/committees/Sports/Sport">
+                <Image className="rounded-full" src={sports} width={180} height={180} alt="Testimonial 02" />
+            </a>
                 </div>
               </div>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic"> Colloquium  </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
+                <cite className="text-gray-200 not-italic">Sports committee </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
+              </div>
+            </div>
+            
+
+
+            <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+              <div>
+                <div className="relative inline-flex flex-col mb-4">
+                  <div className="spacing"></div>
+                  <a href="/committees/Technical/TRC">
+                <Image className="rounded-full" src={TRC} width={180} height={180} alt="Testimonial 02" />
+                </a>
+                </div>
+              </div>
+              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
+                <cite className="text-gray-200 not-italic">Tech And Research Cell </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
             </div>
 
