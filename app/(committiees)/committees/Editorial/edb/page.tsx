@@ -4,18 +4,15 @@ export const metadata = {
   }
   
   import '../../../../css/card.css'
-  import prabir from '../../../../../public/images/prabir.jpeg'
-  import Link from 'next/link'
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import group from '@/public/images/Group_Pics/edbcore.jpeg'
   import shivani from '@/public/images/core/EDB/SHIVANI SINGH_EDB.jpeg'
   import stock from '@/public/images/logo.png'
-  import neel from '@/public/images/core/EDB/IMG_9737.jpg'
-  import Jayesh from '@/public/images/core/EDB/DSC_0700.jpg'
-  import Dhristi from '@/public/images/core/EDB/IMG_5978.jpg'
-
-
+  import neel from '@/public/images/core/EDB/IMG_9737.jpeg'
+  import Jayesh from '@/public/images/core/EDB/DSC_0700.jpeg'
+  import Dhristi from '@/public/images/core/EDB/IMG_5978.jpeg'
+  import Rafa from '@/public/images/core/EDB/RafaInamdar_edb.jpeg'
 
   export default function ResetPassword() {
     return (
@@ -59,28 +56,28 @@ export const metadata = {
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Rafa Inamdar</h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={stock} />
+                <Image alt="Prabir Kalwani" src={Rafa} />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Neil </h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={stock} />
+                <Image alt="Prabir Kalwani" src={neel} />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Jayesh </h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={stock} />
+                <Image alt="Prabir Kalwani" src={Jayesh} />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Dhristi Palresha</h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={stock} />
+                <Image alt="Prabir Kalwani" src={Dhristi} />
               </a>
             </li>
             

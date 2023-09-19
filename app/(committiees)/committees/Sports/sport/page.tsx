@@ -9,8 +9,8 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/Group_Pics/sports.jpeg'
-  import sanya from '@/public/images/core/Sports/IMG_6247.png'
-  import vansh from '@/public/images/core/Sports/IMG_3852.jpg'
+  import sanya from '@/public/images/core/Sports/IMG_6247.jpeg'
+  import vansh from '@/public/images/core/Sports/IMG_3852.jpeg'
   import stock from '@/public/images/logo.png'
 
 

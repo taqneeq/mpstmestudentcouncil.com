@@ -10,10 +10,11 @@ import Image from 'next/image'
 import Footer from '@/components/ui/footer'
 import cult from '@/public/images/Group_Pics/Si.jpeg'
 import stock from '@/public/images/logo.png'
-import aashir from '@/public/images/core/SI/Aashir.png'
-import advit from '@/public/images/core/SI/Advait.jpg'
-import kshama from '@/public/images/core/SI/Kshama_.jpg'
-import anushka from '@/public/images/core/SI/IMG-6516.jpg'
+import aashir from '@/public/images/core/SI/Aashir.jpeg'
+import advit from '@/public/images/core/SI/Advait.jpeg'
+import kshama from '@/public/images/core/SI/Kshama_.jpeg'
+import anushka from '@/public/images/core/SI/IMG-6516.jpeg'
+import '@/app/css/changes.css'
 
 
 export default function ResetPassword() {
@@ -73,7 +74,7 @@ export default function ResetPassword() {
             <a href="#" target="_blank" className="profile">
               <h2 className="profile__name">Kshama Purohit</h2>
               <p>Joint Secretary</p>
-              <Image alt="Prabir Kalwani" src={kshama} />
+              <Image alt="Prabir Kalwani" src={kshama}  className='kshama'/>
             </a>
           </li>
           <li>

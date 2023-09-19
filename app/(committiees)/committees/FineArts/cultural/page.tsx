@@ -10,9 +10,9 @@ export const metadata = {
   import Footer from '@/components/ui/footer'
   import cult from '@/public/images/features-03-image-01.png'
   import stock from '@/public/images/logo.png'
-  import Tushita from '@/public/images/core/Cult/Tushita Shetty.jpg'
-  import Arpit from  '@/public/images/core/Cult/BDCB2C25-02B3-47DE-A613-9810C2F2F1C8.jpg'
-  import Ishwari from '@/public/images/core/Cult/IMG_1597.png'
+  import Tushita from '@/public/images/core/Cult/Tushita Shetty.jpeg'
+  import Arpit from  '@/public/images/core/Cult/BDCB2C25-02B3-47DE-A613-9810C2F2F1C8.jpeg'
+  import Ishwari from '@/public/images/core/Cult/IMG_1597.jpeg'
   
   export default function ResetPassword() {
     return (
@@ -69,7 +69,7 @@ export const metadata = {
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Ishwari Birje</h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={stock} />
+                <Image alt="Prabir Kalwani" src={Ishwari} />
               </a>
             </li>
             <li>

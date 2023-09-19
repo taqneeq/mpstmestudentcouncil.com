@@ -10,7 +10,7 @@ export const metadata = {
   import Footer from '@/components/ui/footer'
   import CQ from '@/public/images/Group_Pics/cq.jpeg'
   import stock from '@/public/images/logo.png'
-  import survey from '@/public/images/core/CQ/Surve.jpg'
+  import survey from '@/public/images/core/CQ/Surve.jpeg'
   import manan from  '@/public/images/core/CQ/IMG_4718.jpeg'
   import tanna from '@/public/images/core/CQ/Shubham Tanna.jpeg'
 
