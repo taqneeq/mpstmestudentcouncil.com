@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Council MPSTME',
-  description: 'Page description',
+  title:  'NMIMS MPSTME Student Council ',
+  description: 'The Amazing Council Of NMIMS MPSTME',
 }
 import Image from 'next/image'
 import Hero from '@/components/hero'
@@ -121,13 +121,6 @@ export default function Home() {
         </div>
       </div>
     </section>
-
-
-
-
-
-
-
 
 
 

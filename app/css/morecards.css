@@ -5,6 +5,8 @@
   gap: 50px;
 }
 
+
+
 .box {
   background: white;
   border-radius: 20px;
@@ -45,6 +47,7 @@
 .box-image img {
   width: 100%;
   display: block;
+
 }
 .studio-button {
   position: absolute;
@@ -93,12 +96,23 @@
   .box:nth-child(3n) {
     margin-right: 0;
   }
+
+  .box-image img {
+    width: 8cqmax;
+    display: block;
+  
+  }
 }
 
 /* Media query for mobile screens */
 @media screen and (max-width: 767px) {
   .box-wrapper {
     flex-direction: column;
+  }
+  .box-image img {
+    width: 50%;
+    display: block;
+  
   }
 
   /* Reset the width and margin for one box per row */
