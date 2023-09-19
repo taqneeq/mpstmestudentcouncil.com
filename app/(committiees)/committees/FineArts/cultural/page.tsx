@@ -22,7 +22,7 @@ export const metadata = {
   
             {/* Page header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-              <h1 className="h1 mb-4">Cultural Committiee</h1>
+              <h1 className="h1 mb-4">Cultural Committie </h1>
               <p className="text-xl text-gray-400">Cultural Cell MPSTME </p>
             </div>
   
@@ -46,7 +46,7 @@ export const metadata = {
           <ul className="auto-grid" role="list">
             <li>
               <a href="#" target="_blank" className="profile">
-                <h2 className="profile__name">Aayush Mamunkar</h2>
+                <h2 className="profile__name">Aayush Mhamunkar</h2>
                 <p>Secretary</p>
                 <Image alt="Prabir Kalwani" src={stock} />
               </a>
@@ -74,7 +74,7 @@ export const metadata = {
             </li>
             <li>
               <a href="#" target="_blank" className="profile">
-                <h2 className="profile__name">Arpit Bhalla</h2>
+                <h2 className="profile__name">Amrit Bhatia </h2>
                 <p>Joint Secretary</p>
                 <Image alt="Prabir Kalwani" src={Arpit} />
               </a>

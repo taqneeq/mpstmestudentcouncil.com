@@ -46,7 +46,7 @@ export const metadata = {
           <ul className="auto-grid" role="list">
             <li>
               <a href="#" target="_blank" className="profile">
-                <h2 className="profile__name">Adya</h2>
+                <h2 className="profile__name">Adhya</h2>
                 <p>Secretary</p>
                 <Image alt="Prabir Kalwani" src={stock} />
               </a>
