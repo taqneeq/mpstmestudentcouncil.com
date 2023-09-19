@@ -4,11 +4,15 @@ export const metadata = {
 }
 
 import '../../../../css/card.css'
-import prabir from '../../../../../public/images/prabir.jpeg'
+import prabir from '@/public/images/prabirkalwani.jpeg'
 import Link from 'next/link'
 import Image from 'next/image'
 import Footer from '@/components/ui/footer'
-
+import hero from '@/public/images/loltrc.jpg'
+import aryan from '@/public/images/core/TRC/IMG_0036.jpg'
+import virati from '@/public/images/core/TRC/IMG_4530.jpg'
+import aayush from '@/public/images/core/TRC/aayush.jpg'
+import darsh from  '@/public/images/core/TRC/Darsh .jpeg'
 export default function ResetPassword() {
   return (
     <section className="relative">
@@ -22,7 +26,7 @@ export default function ResetPassword() {
           </div>
 
           {/* Form */}
-        <Image src="/images/hero-image-01.jpg" alt="TRC"width={3000} height={3000} />
+        <Image src={hero} alt="TRC"width={3000} height={3000} />
 
         <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -41,38 +45,38 @@ export default function ResetPassword() {
       <div className="team">
         <ul className="auto-grid" role="list">
           <li>
-            <a href="https://swop.link/cool" target="_blank" className="profile">
+            <a href="#" target="_blank" className="profile">
+              <h2 className="profile__name">Aryan Bondgulwar</h2>
+              <p>Secretary</p>
+              <Image alt="Prabir Kalwani" src={aryan} />
+            </a>
+          </li>
+          <li>
+            <a href="https://prabir.in" target="_blank" className="profile">
               <h2 className="profile__name">Prabir Kalwani</h2>
               <p>Joint Secretary</p>
               <Image alt="Prabir Kalwani" src={prabir} />
             </a>
           </li>
           <li>
-            <a href="https://swop.link/cool" target="_blank" className="profile">
-              <h2 className="profile__name">Prabir Kalwani</h2>
+            <a href="#" target="_blank" className="profile">
+              <h2 className="profile__name">Virati Chordiya</h2>
               <p>Joint Secretary</p>
-              <Image alt="Prabir Kalwani" src={prabir} />
+              <Image alt="Prabir Kalwani" src={virati} />
             </a>
           </li>
           <li>
-            <a href="https://swop.link/cool" target="_blank" className="profile">
-              <h2 className="profile__name">Prabir Kalwani</h2>
+            <a href="#" target="_blank" className="profile">
+              <h2 className="profile__name">Aayush Shah</h2>
               <p>Joint Secretary</p>
-              <Image alt="Prabir Kalwani" src={prabir} />
+              <Image alt="Prabir Kalwani" src={aayush} />
             </a>
           </li>
           <li>
-            <a href="https://swop.link/cool" target="_blank" className="profile">
-              <h2 className="profile__name">Prabir Kalwani</h2>
+            <a href="#" target="_blank" className="profile">
+              <h2 className="profile__name">Darsh Doshi</h2>
               <p>Joint Secretary</p>
-              <Image alt="Prabir Kalwani" src={prabir} />
-            </a>
-          </li>
-          <li>
-            <a href="https://swop.link/cool" target="_blank" className="profile">
-              <h2 className="profile__name">Prabir Kalwani</h2>
-              <p>Joint Secretary</p>
-              <Image alt="Prabir Kalwani" src={prabir} />
+              <Image alt="Prabir Kalwani" src={darsh} />
             </a>
           </li>
           
