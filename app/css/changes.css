@@ -1,0 +1,9 @@
+.images{
+    text-align: center;
+}
+
+.image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

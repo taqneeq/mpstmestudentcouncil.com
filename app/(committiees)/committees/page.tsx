@@ -109,7 +109,7 @@ export default function SignIn() {
       <div className="font-architects-daughter text-xl text-red-600 mb-2">Driving Motivation </div>
       <h3 className="h3 mb-3">Fine arts </h3>
       <p className="text-xl text-gray-400 mb-4">Core Intact</p>
-      <a href="committees/Social" className="">
+      <a href="committees/FineArts" className="">
       <div className="border-2 border-yellow-600 rounded-lg px-3 py-2 text-yellow-400 cursor-pointer hover:bg-yellow-600 hover:text-yellow-200">
           Click here to know more
         </div> 
