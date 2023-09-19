@@ -69,7 +69,7 @@ export const metadata = {
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Ishwari Birje</h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={Ishwari} />
+                <Image alt="Prabir Kalwani" src={stock} />
               </a>
             </li>
             <li>

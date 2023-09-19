@@ -10,7 +10,7 @@ export const metadata = {
   import Footer from '@/components/ui/footer'
   import group from '@/public/images/Group_Pics/edbcore.jpeg'
   import shivani from '@/public/images/core/EDB/SHIVANI SINGH_EDB.jpeg'
-  import Rafa from '@/public/images/core/EDB/RafaInamdar_edb.jpg'
+  import stock from '@/public/images/logo.png'
   import neel from '@/public/images/core/EDB/IMG_9737.jpg'
   import Jayesh from '@/public/images/core/EDB/DSC_0700.jpg'
   import Dhristi from '@/public/images/core/EDB/IMG_5978.jpg'
@@ -59,28 +59,28 @@ export const metadata = {
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Rafa Inamdar</h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={Rafa} />
+                <Image alt="Prabir Kalwani" src={stock} />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Neil </h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={neel} />
+                <Image alt="Prabir Kalwani" src={stock} />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Jayesh </h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={Jayesh} />
+                <Image alt="Prabir Kalwani" src={stock} />
               </a>
             </li>
             <li>
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Dhristi Palresha</h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={Dhristi} />
+                <Image alt="Prabir Kalwani" src={stock} />
               </a>
             </li>
             

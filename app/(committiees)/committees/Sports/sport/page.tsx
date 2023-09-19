@@ -9,7 +9,6 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/Group_Pics/sports.jpeg'
-  import pratham from '@/public/images/core/Sports/IMG_20230830_230523_548.jpg'
   import sanya from '@/public/images/core/Sports/IMG_6247.png'
   import vansh from '@/public/images/core/Sports/IMG_3852.jpg'
   import stock from '@/public/images/logo.png'
@@ -64,7 +63,7 @@ export const metadata = {
               <a href="#" target="_blank" className="profile">
                 <h2 className="profile__name">Pratham Shah</h2>
                 <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={pratham} />
+                <Image alt="Prabir Kalwani" src={stock} />
               </a>
             </li>
             <li>
