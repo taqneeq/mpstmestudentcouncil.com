@@ -15,11 +15,15 @@ import fine from '@/public/images/oldimages/fine.jpg'
 import women from '@/public/images/oldimages/women.jpg'
 import editorial from '@/public/images/oldimages/editorial.jpg'
 import sports from '@/public/images/oldimages/sports.jpg'
+import Head from 'next/head'
+import '@/app/css/changes.css'
 
 export default function SignIn() {
   return (
     <section className="relative">
 
+    <head>
+    </head>
 
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -28,8 +32,7 @@ export default function SignIn() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
-            <h1 className="h2 mb-4 ">Our Committies</h1>
-            <p className="text-xl text-gray-400">Explore our diverse committees dedicated to enhancing our community's well-being and growth. Learn about their vital roles and contributions.</p>
+            <h1 className="h2 mb-4  heading-padding">Our Committies</h1>
           </div>
 
           {/* Items */}

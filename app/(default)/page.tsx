@@ -113,7 +113,7 @@ export default function Home() {
               <div>
                 <div className="relative inline-flex flex-col mb-4">
                 <div className="spacing-1"></div>
-                <a href="/committees/Sports/Sport">
+                <a href="/committees/Sports/sport">
                 <Image className="rounded-full" src={sports} width={180} height={180} alt="Testimonial 02" />
             </a>
                 </div>
