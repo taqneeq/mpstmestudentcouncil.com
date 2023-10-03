@@ -30,7 +30,6 @@ export default function ResetPassword() {
           <Image src={CQ} alt="TRC" width={3000} height={3000} />
 
           <section>
-<<<<<<< HEAD
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
               <div className="py-12 md:py-20">
                 {/* Section header */}
@@ -134,64 +133,13 @@ export default function ResetPassword() {
                 </article>
               </div>
             </div>
-          </section>
-=======
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="py-12 md:py-20">
-  
-            {/* Section header */}
-            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-              <h2 className="h2 mb-4">Our Vision.</h2>
-              <p className="text-xl text-gray-400">When it comes to talking numbers and matters of money, nobody does it better than us. Colloquium, The Business and Management Cell of the Students’ Council, aims towards collaborating with the corporate world while acclimating the team to enter the professional arena. Partnering with the biggest of banks, brands and tech giants like OnePlus, ICICI Bank, Starbucks, Axis Bank, NSDL, LinkedIn, Snapchat and Ebay are just specks in a plethora of achievements we boast here at Colloquium. We believe in the ethos of “If work isn’t fun, you’re not playing on the right team”. Helping students become more confident, knowledgeable and marketable, and providing them with opportunities to create long-lasting relationships with like-minded individuals has always been at the top of our list.</p>            </div>
-            
-            <h2 className="h2 mb-4">Our Team.</h2>
-  
-            <article className="flow">
-  
-        <div className="team">
-          <ul className="auto-grid" role="list">
-            <li>
-              <a href="#" target="_blank" className="profile">
-                <h2 className="profile__name">Adya</h2>
-                <p>Secretary</p>
-                <Image alt="Prabir Kalwani" src={stock} />
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" className="profile">
-                <h2 className="profile__name">Soham Surve</h2>
-                <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={survey} />
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" className="profile">
-                <h2 className="profile__name">Manan Siroya</h2>
-                <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={manan} />
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" className="profile">
-                <h2 className="profile__name">Shubham Tanna</h2>
-                <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={tanna} />
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" className="profile">
-                <h2 className="profile__name">Sarah Noorani</h2>
-                <p>Joint Secretary</p>
-                <Image alt="Prabir Kalwani" src={stock} />
-              </a>
-            </li>
-            
-            
-          </ul>
->>>>>>> parent of e1e1f69 (fixed issue on mobile devices)
-        </div>
-      </div>
-      <Footer />
-    </section>
+            </section>
+
+         
+            <Footer />
+            </div>
+            </div>
+            </section>
+      
   );
 }
