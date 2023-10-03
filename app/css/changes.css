@@ -12,3 +12,8 @@
     rotate: -90deg;
     object-fit: contain;
 }
+
+
+.heading-padding{
+    margin-top: 4rem;
+}

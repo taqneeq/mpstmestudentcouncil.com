@@ -117,9 +117,8 @@
 
   /* Reset the width and margin for one box per row */
   .box {
-    width: 70%;
+    width: 100%;
     margin-right: 0;
-    margin-bottom: 20px;
-    margin-left: 10px; /* Add vertical spacing between boxes */
+    margin-bottom: 20px; /* Add vertical spacing between boxes */
   }
 }

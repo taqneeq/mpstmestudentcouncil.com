@@ -5,3 +5,46 @@
 .spacing-1{
     margin-top: 20px;
 }
+
+.logo-image{
+ aspect-ratio: 3/2;
+ object-fit: contain; 
+}
+
+
+
+.alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.alignment-edb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.alignment-si{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.alignment-sports{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.alignment-trc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
