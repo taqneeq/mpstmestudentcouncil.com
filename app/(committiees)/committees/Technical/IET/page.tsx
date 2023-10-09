@@ -10,7 +10,7 @@ export const metadata = {
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/iet.png'    
 
-
+  import Flagships from '@/components/flagships'
 
   export default function ResetPassword() {
     return (
@@ -36,7 +36,13 @@ export const metadata = {
               <p className="text-xl text-gray-400"> The Institution of Engineering and Technology is a multidisciplinary professional engineering institution, based in the United Kingdom. 🇬🇧 The IET seeks to inspire, inform, and influence the global 🌏 engineering community to usher it towards a brighter future. It has strived tirelessly to share knowledge 💡 that helps make better sense of the world to solve the challenges that matter.</p> 
               </div>
             
-  
+              <Flagships
+            events={[
+              {
+                description:"              Facilitates interaction and collaboration between students from various departments. Polishes hard skills of formal communication, digital content creation, etc. With events like BOTSON HACK N CODE INDUTRIALS VISITS                 " ,
+              },
+            ]}
+/>
   
             
   

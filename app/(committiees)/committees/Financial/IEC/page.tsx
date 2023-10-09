@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/iec.png'    
-
+  import Flagships from '@/components/flagships'
 
 
   export default function ResetPassword() {
@@ -38,7 +38,13 @@ export const metadata = {
             
   
   
-            
+              <Flagships
+            events={[
+              {
+                description:"              Life Of an Entrepreneur A thought-provoking session for the students of MPSTME understand the Entrepreneurial Lifecycle from the co-founders of different startups. Time Capsule A fun activity wherein over 300 students wrote a letter to their future selves. These letters were returned to the students at the end of the academic year. The motive behind this was to boost their morale and bring in them a sense of accomplishment                 " ,
+              },
+            ]}
+/>
   
           </div>
         </div>

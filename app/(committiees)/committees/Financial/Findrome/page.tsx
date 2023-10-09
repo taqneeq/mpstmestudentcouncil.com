@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/findrome.png'    
-
+  import Flagships from '@/components/flagships'
 
 
   export default function ResetPassword() {
@@ -35,7 +35,13 @@ export const metadata = {
               <h2 className="h2 mb-4">Our Vision.</h2>
               <p className="text-xl text-gray-400">The finance cell of MPSTME Student body which organises events and activities such as workshops, guest lecturers from industry experts, business quiz, virtual stock market, management simulation games, case study competition and panel discussions in the financial domain.</p> 
               </div>
-            
+              <Flagships
+            events={[
+              {
+                description:"                Life Of an Entrepreneur A thought-provoking session for the students of MPSTME understand the Entrepreneurial Lifecycle from the co-founders of different startups. Time Capsule A fun activity wherein over 300 students wrote a letter to their future selves. These letters were returned to the students at the end of the academic year. The motive behind this was to boost their morale and bring in them a sense of accomplishment                 " ,
+              },
+            ]}
+/>
   
   
             

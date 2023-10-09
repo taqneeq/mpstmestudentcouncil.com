@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/4c.png'    
-
+  import Flagships from '@/components/flagships'
 
 
   export default function ResetPassword() {
@@ -36,7 +36,25 @@ export const metadata = {
               <p className="text-xl text-gray-400">We at 4C - The Marketing Cell of MPSTME, under the NMIMS Deemed-to-be-University embarked on this journey back in 2008, with one collective vision in our minds - To Collect, Connect, Commence, and Contest in the rapidly evolving Marketing world, as depicted in our name. As a committee,we organize marketing-related events that are a perfectly proportionate mix of fun and learning. In addition to this, we regularly conduct seminars and industry workshops which help in providing hands-on knowledge to the students that assist them in honing their practical skills and nurturing their marketing mindset.</p> 
               </div>
             
-  
+              <Flagships
+                  events={[
+                    {
+                      title: "wings and roots",
+
+                    },
+                    {
+                      title: "Gensis",
+
+                    },
+                    {
+                      title: "Euphoria",
+
+                    },
+                    
+                    
+                    
+                  ]}
+                />
   
             
   

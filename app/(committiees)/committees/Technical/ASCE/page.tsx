@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/asce.jpg'    
-
+  import Flagships from '@/components/flagships'
 
 
   export default function ResetPassword() {
@@ -38,6 +38,15 @@ export const metadata = {
 </p> 
               </div>
             
+
+              <Flagships
+            events={[
+              {
+                title:"Vishweshwarya",
+                description:" The ASCE hosts events like Vishweshwarya series of Talks Horizon (annual technical fest) Ingeniero (Annual fest ) Sanrachana (magazine) Fitness workshop Social impact Activities Career guidance seminars                 " ,
+              },
+            ]}
+/>
   
   
             

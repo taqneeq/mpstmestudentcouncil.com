@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/asme.jpg'    
-
+  import Flagships from '@/components/flagships'
 
 
   export default function ResetPassword() {
@@ -39,8 +39,16 @@ export const metadata = {
 
 </p> 
               </div>
-            
-  
+
+
+              <Flagships
+            events={[
+              {
+                description:"              Events which are feasible and efficient on the online platform, which will help students to enhance their skill set. Provide a platform to those interested in E-fest ASME. Give insights on placement drives and it’s various aspects." ,
+              },
+            ]}
+/>
+
   
             
   

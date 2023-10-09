@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/acm.jpg'    
-
+  import Flagships from '@/components/flagships'
 
 
   export default function ResetPassword() {
@@ -35,7 +35,15 @@ export const metadata = {
               <h2 className="h2 mb-4">Our Vision.</h2>
               <p className="text-xl text-gray-400"> ACM Student Chapters facilitate communication and collaboration within a university’s computer science community and with the computing community at large. Through its sponsorship of student chapters, ACM enhances learning via the exchange of ideas among students, and between students and established professionals.</p> 
               </div>
-            
+             
+          <Flagships
+            events={[
+              {
+                title:"SemiCode",
+                description:"SemiCode is ACM MPSTME's flagship event. It is a three-round coding competition in collaboration with other ACM Chapters." ,
+              },
+            ]}
+/>
   
   
             

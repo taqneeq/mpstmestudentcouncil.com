@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/racingteam.jpg'    
-
+  import Flagships from '@/components/flagships'
 
 
   export default function ResetPassword() {
@@ -41,6 +41,14 @@ export const metadata = {
               </div>
             
   
+              <Flagships
+            events={[
+              {
+                description:"         GKDC All the research and analysis that goes into the designing and fabrication of vehicles gives unmatched preeminence to the participants as compared to the others. Candidates perform in groups, which prepares them to flourish with Morales. This formulated path enables a student to become a thorough professional with healthy knowledge of Engineering and Management. AIRC Auto India Racing Championship is a GO-KART racing event, where under graduate and graduate students are given opportunity to design and fabricate their four wheeled vehicle. The vehicle must be aerodynamic, highly engineered, safe and ergonomically designed. The design should be commercially viable as a product and should be attractive to the consumers because of its visual appearance, performance, reliability and ease of operation.                " ,
+              },
+            ]}
+/>
+            
   
             
   

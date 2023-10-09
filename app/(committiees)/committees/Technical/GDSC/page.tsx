@@ -10,7 +10,7 @@ export const metadata = {
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/gdsc.png'    
 
-
+  import Flagships from '@/components/flagships'
 
   export default function ResetPassword() {
     return (
@@ -38,6 +38,15 @@ export const metadata = {
 
 
 </p> 
+
+
+<Flagships
+            events={[
+              {
+                description:"Organized Study Jams for different technologies Created solutions to problems stated by the United Nations to help mankindBrought forward a revolution in learning for beginners to get hands-on experience in product development " ,
+              },
+            ]}
+/>
               </div>
             
   

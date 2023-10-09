@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/iete.jpg'    
-
+  import Flagships from '@/components/flagships'
 
 
   export default function ResetPassword() {
@@ -38,7 +38,13 @@ export const metadata = {
 </p> 
               </div>
             
-  
+              <Flagships
+            events={[
+              {
+                description:"    U’Lectro is a national level Inter-College Technical Project Display Competition. It is the flagship event of our committee. Students from the IIT and other reputable universities attend this event to take part. Numerous eminent professors and members of the faculty are also invited to judge the competition. In addition to the main event, IETE hosts interactive sessions. The college becomes a magnet for tech enthusiasts and aspiring engineers thanks to IETE-SF MPSTME. " ,
+              },
+            ]}
+/>
   
             
   

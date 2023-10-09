@@ -129,13 +129,7 @@ export default function Footer() {
             {/* Copyrights note */}
             <div className="text-gray-400 text-sm mr-4">
               &copy;{" "}
-              <a href="https://prabir.in" target="_blank" rel="noreferrer">
-                prabir.in
-              </a>{" "}
-              and{" "}
-              <a href="https://nnisarg.in" target="_blank" rel="noreferrer">
-                nnisarg.in
-              </a>
+             mpstme Student Council
             </div>
           </div>
         </div>

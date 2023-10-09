@@ -9,7 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/ISME Logo.jpeg'    
-
+  import Flagships from '@/components/flagships'  
 
 
   export default function ResetPassword() {
@@ -40,6 +40,13 @@ export const metadata = {
             
   
   
+              <Flagships
+            events={[
+              {
+                description:"        The committees’ purpose is to help college students become more technically adept. It seeks to create a crucial link between what is taught in the college and how it is applied in the real world. ISME also provides a great learning platform through various competitions and especially through its flagship event. " ,
+              },
+            ]}
+/>
             
   
           </div>
