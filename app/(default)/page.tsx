@@ -40,7 +40,7 @@ export default function Home() {
               <div className='alignment'>
                 <div className="relative inline-flex flex-col mb-4">
                 <div className="spacing-1"></div>
-                <a href="/committees/FineArts/cq">
+                <a href="/committees/Financial/cq">
                 <Image className="rounded-full logo-image" src={cq} width={150} height={150} alt="Testimonial 02" />
                </a>
                 </div>

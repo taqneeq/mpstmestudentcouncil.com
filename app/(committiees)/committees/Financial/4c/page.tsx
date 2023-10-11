@@ -39,17 +39,10 @@ export const metadata = {
               <Flagships
                   events={[
                     {
-                      title: "wings and roots",
+                      description: "Wings and Roots , Euphoria and Gensis",
 
                     },
-                    {
-                      title: "Gensis",
-
-                    },
-                    {
-                      title: "Euphoria",
-
-                    },
+                   
                     
                     
                     

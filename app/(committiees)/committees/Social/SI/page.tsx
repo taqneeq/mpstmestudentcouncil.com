@@ -60,7 +60,7 @@ export default function ResetPassword() {
                         "Backed by the United Nations, Social Conclave is a socio-economic conference in which significant issues are discussed with the goal of bringing about positive changes in various walks of life. Delegates from across the country gather together to discuss the worst kind of social issues plaguing the society, with the unified aim of finding a sustainable solution, which can be implemented on ground level. For expert guidance on such critical issues, eminent speakers attend this conference, who know more about the ground level situations than we do. Social Conclave consists of field visits according to the problem being discussed, to get a better idea and improve the corresponding solutions. The three-day conference also consists of a social mixer, to make delegates interact and feel more comfortable, and a mock panchayat.",
                     },
                     {
-                      title: "Juhu Beach Clean-up",
+                      title: "Beach Clean-up",
                       description:
                         "The Social cell of MPSTME, in association with Divyaj and Bhamla Foundation, supported and actively participated in a Beach Clean-up at Juhu Beach post Ganpati Visarjan, in order to curb the yearly waste and plastics deposited at the beach and in the ocean after Ganpati Visarjan.",
                     },

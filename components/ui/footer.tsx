@@ -13,7 +13,7 @@ export default function Footer() {
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
-                More than just a council {/* Logo */}
+                 {/* Logo */}
                 <Image src={logo} alt="Features 03" width={60} height={60} />
               </div>
               <div className="text-gray-400"> </div>
@@ -129,7 +129,7 @@ export default function Footer() {
             {/* Copyrights note */}
             <div className="text-gray-400 text-sm mr-4">
               &copy;{" "}
-             mpstme Student Council
+             MPSTME NMIMS Student Council
             </div>
           </div>
         </div>

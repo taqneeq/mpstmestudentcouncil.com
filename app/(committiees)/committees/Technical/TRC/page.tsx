@@ -61,11 +61,6 @@ export default function ResetPassword() {
                         "MPSTME’s annual Technical Festival, Taqneeq, is a 3-Day tech extravaganza; an amalgamation of all domains of engineering, supplemented with numerous informative seminars and an array of technical events as well as informal games. Over the previous editions of Taqneeq, we have partnered with Tech Mahindra, E&Y, Colors Infinity, Mama Earth, and many more notable companies in the industry. Taqneeq allows students to redefine the way they perceive technology and its adaptations.",
                     },
                     {
-                      title: "The Talk",
-                      description:
-                        "MPSTME’s annual Technical Festival, Taqneeq, is a 3-Day tech extravaganza; an amalgamation of all domains of engineering, supplemented with numerous informative seminars and an array of technical events as well as informal games. Over the previous editions of Taqneeq, we have partnered with Tech Mahindra, E&Y, Colors Infinity, Mama Earth, and many more notable companies in the industry. Taqneeq allows students to redefine the way they perceive technology and its adaptations.",
-                    },
-                    {
                       title: "Internship Fair",
                       description:
                         "The Internship Fair aims to help students build real-world industry contacts and gauge the market consensus. Throughout the years, hundreds of students have bagged valuable internships with reputed companies of different domains. The Internship Fair has collaborated with L&T, Bank of India, Kenmark Solutions, AIESEC, and many more.",
@@ -75,16 +70,7 @@ export default function ResetPassword() {
                       description:
                         "Cyber Cypher, a 24-hour hackathon with a prize pool of Rs. 50,000, aims to test participant’s programming skills via two levels of problem statements, Elementary Level, using fundamentals of programming and Advanced Level, using knowledge of data science and artificial intelligence. In its first edition, Cyber Cypher welcomed a stellar panel of Chief Guests from DCB Bank, Reliance Securities and CoinDCX; as well as judges from Facebook, Google, Accenture and many more!",
                     },
-                    {
-                      title: "Nuiscience",
-                      description:
-                        "Nuiscience is a fun event based on fundamental concepts of science. With games such as Buzz Wire, Elemenate, Catapult and an ML based Rock Paper Scissors Model, this event showcases our message that this committee is not just about coding, but also the perfect way to implement your knowledge into reality.",
-                    },
-                    {
-                      title: "Workshops",
-                      description:
-                        "Tech Comm has organized a diverse set of workshops over the years, covering various fields such as aviation cloud computing, cybersecurity and many more. By holding practical workshops such as the PC - Building workshop, we hope to give the students a hands-on experience of learning different aspects of technology.",
-                    },
+                    
                   ]}
                 />
 

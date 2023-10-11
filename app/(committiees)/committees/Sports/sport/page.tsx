@@ -10,10 +10,10 @@ import Image from "next/image";
 import Footer from "@/components/ui/footer";
 import hero from "@/public/images/Group_Pics/sports.jpeg";
 import sanya from "@/public/images/core/Sports/IMG_6247.jpeg";
-import vansh from "@/public/images/core/Sports/IMG_3852.jpeg";
 import stock from "@/public/images/logo.png";
 import Flagships from "@/components/flagships";
-
+import Vansh from '@/public/images/vansh.jpg';
+import Pratham from '@/public/images/pratham.jpeg'
 export default function ResetPassword() {
   return (
     <section className="relative">
@@ -108,12 +108,12 @@ export default function ResetPassword() {
                         <a href="#" target="_blank" className="profile">
                           <h2 className="profile__name">Pratham Shah</h2>
                           <p>Joint Secretary</p>
-                          <Image alt="Prabir Kalwani" src={stock} />
+                          <Image alt="Prabir Kalwani" src={Pratham} />
                         </a>
                       </li>
                       <li>
                         <a href="#" target="_blank" className="profile">
-                          <h2 className="profile__name">saanya Santosh</h2>
+                          <h2 className="profile__name">Saanya Santosh</h2>
                           <p>Joint Secretary</p>
                           <Image alt="Prabir Kalwani" src={sanya} />
                         </a>
@@ -122,7 +122,7 @@ export default function ResetPassword() {
                         <a href="#" target="_blank" className="profile">
                           <h2 className="profile__name">Vansh Dhokla</h2>
                           <p>Joint Secretary</p>
-                          <Image alt="Prabir Kalwani" src={vansh} />
+                          <Image alt="Prabir Kalwani" src={Vansh} />
                         </a>
                       </li>
                     </ul>

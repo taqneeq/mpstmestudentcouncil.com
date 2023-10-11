@@ -64,41 +64,20 @@ export default function ResetPassword() {
                       description:
                         "Carnival is a very eagerly awaited day for all our students, it’s a whole day of fun-filled activities, games, short events during the day with food stalls and activity stalls during the day. After a successful day, in the evening to relax we host The Comedy Night where we have celebrated comedians performing for our students to give them a good laugh and a well-deserved break from our stressful everyday lives.",
                     },
-                    {
-                      title: "Rose & Chocolate Day",
-                      description:
-                        "One of the most exciting events held in our college for all our students, it is a day where all students may come to the college lounge, write a letter to their dear friends and purchase cupcakes, chocolates & variety of coloured roses for them, Cultural Committee then discretely delivers the gifts and letters to the intended receiver anonymously if sender wishes to remain so. Lots of students look forward to this event all ‘round the year!",
-                    },
-                    {
-                      title: "World Peace Day",
-                      description:
-                        "One of Cultural Committee’s most popular events, on World Peace Day, we host talent competitions across various fields for all students based on the theme of “peace”, encouraging all our fellow peers to achieve their inner peace via art, dance, music, theatrical performances etc., and motivating them by awarding the best with various valuable prizes.",
-                    },
-                    {
-                      title: "Engineer’s Day",
-                      description:
-                        "The Cultural Committee, being a part the MPSTME Student Council, gives back to the Engineering Community by holding a social media campaign in honour of reputable engineers on this auspicious day.",
-                    },
+                    
+                    
                     {
                       title: "Secret Santa",
                       description:
                         "The Cultural Committee hosts a Secret Santa in honour of the Christmas Spirit every year for the entire Student Council, where each member anonymously gifts another member of the council something precious & meaningful in front of a beautifully decorated Christmas Tree in the College Lounge.",
                     },
-                    {
-                      title: "The Friendship Booth",
-                      description:
-                        "Cultural Committee sets up an environment for students to meet new people and create new friendships whether it's online or offline. Each student gets to explore several new friendships with various other people, making it the best socialising event for all students, especially new ones.",
-                    },
+                   
                     {
                       title: "Traditional Day",
                       description:
                         "Another one of the most celebrated events of the institution, on this day every student dresses up in their most beautiful salwar kameez, kurta, lehenga & other traditional outfits and enjoys a fun-filled day of taking beautiful photos at our professional photobooth, buying various accessories, clothes, food, makeup at the stalls setup by us on campus in our beautifully decorated canopy area.",
                     },
-                    {
-                      title: "Recess",
-                      description:
-                        "A well-known event among all our students, Recess is one of our signature events with a day full of exhilarating games and activities like Dare Pong, The Friendship Booth, carrom, and other popular board games.",
-                    },
+                    
                     {
                       title: "Teachers’ Day",
                       description:
