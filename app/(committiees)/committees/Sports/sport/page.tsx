@@ -12,7 +12,7 @@ import hero from "@/public/images/Group_Pics/sports.jpeg";
 import sanya from "@/public/images/core/Sports/IMG_6247.jpeg";
 import stock from "@/public/images/logo.png";
 import Flagships from "@/components/flagships";
-import Vansh from '@/public/images/vansh.jpg';
+import Vansh from '@/public/images/vansh.jpeg';
 import Pratham from '@/public/images/pratham.jpeg'
 export default function ResetPassword() {
   return (
