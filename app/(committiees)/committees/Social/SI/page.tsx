@@ -8,7 +8,7 @@ import prabir from "../../../../../public/images/prabir.jpeg";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "@/components/ui/footer";
-import cult from "@/public/images/Group_Pics/Si.jpeg";
+import si from "@/public/images/Group_Pics/si_group.jpeg";
 import stock from "@/public/images/logo.png";
 import aashir from "@/public/images/core/SI/Aashir.jpeg";
 import advit from "@/public/images/core/SI/Advait.jpeg";
@@ -29,7 +29,7 @@ export default function ResetPassword() {
           </div>
 
           {/* Form */}
-          <Image src={cult} alt="TRC" width={3000} height={3000} />
+          <Image src={si} alt="TRC" width={3000} height={3000} />
 
           <section>
             <div className="max-w-6xl mx-auto px-4 sm:px-6">

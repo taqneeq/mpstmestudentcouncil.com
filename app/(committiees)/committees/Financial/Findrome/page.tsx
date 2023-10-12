@@ -10,6 +10,7 @@ export const metadata = {
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/findrome.png'    
   import Flagships from '@/components/flagships'
+  import '@/app/css/changes.css'
 
 
   export default function ResetPassword() {
@@ -19,7 +20,7 @@ export const metadata = {
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
   
             {/* Page header */}
-            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 logo-fix ">
               <h1 className="h1 mb-4">Findrome</h1>
             </div>
   

@@ -17,3 +17,14 @@
 .heading-padding{
     margin-top: 4rem;
 }
+
+.logo-fix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-fix img{
+    width: 50%;
+}

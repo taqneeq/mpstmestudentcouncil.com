@@ -37,38 +37,46 @@ export default function Home() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
             {/* 1st testimonial */}
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+            <a href="/committees/Financial/cq">
+
               <div className='alignment'>
                 <div className="relative inline-flex flex-col mb-4">
                 <div className="spacing-1"></div>
-                <a href="/committees/Financial/cq">
                 <Image className="rounded-full logo-image" src={cq} width={150} height={150} alt="Testimonial 02" />
-               </a>
                 </div>
               </div>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic"> Colloquium  </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
+              </a>
             </div>
+
+
+
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+            <a href="/committees/FineArts/cultural">
+
               <div className='alignment'>
                 <div className="relative inline-flex flex-col mb-4">
                 <div className="spacing-1"></div>
-                <a href="/committees/FineArts/cultural">
                 <Image className="rounded-full logo-image" src={cultural} width={150} height={150} alt="Testimonial 02" />
-                  </a>
                 </div>
+
               </div>
+
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Cultural committee </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
+              </a>
+
             </div>
             
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+            <a href="/committees/Editorial/edb">
+
               <div className='alignment-edb'>
                 <div className="relative inline-flex flex-col mb-4">
-                <a href="/committees/Editorial/edb">
                 <Image className="rounded-full logo-image" src={eb} width={150} height={150} alt="Testimonial 02" />
-                  </a>
                 </div>
               </div>
 
@@ -76,48 +84,55 @@ export default function Home() {
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Editorial Board</cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
+              </a>
             </div>
+
+
+
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+            <a href="/committees/Social/SI">
+
               <div className='alignment-si'>
                 <div className="relative inline-flex flex-col mb-4">
-                <a href="/committees/Social/SI">
                 <Image className="rounded-full logo-image" src={SI} width={200} height={200} alt="Testimonial 02" />
-             </a>
               </div>
               </div>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Social Impact </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
+              </a>
             </div>
      
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+            <a href="/committees/Sports/sport">
+
               <div className='alignment-sports'>
                 <div className="relative inline-flex flex-col mb-4">
                 <div className="spacing-1"></div>
-                <a href="/committees/Sports/sport">
                 <Image className="rounded-full logo-image" src={sports} width={150} height={150} alt="Testimonial 02" />
-            </a>
                 </div>
               </div>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Sports committee </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
+              </a>
             </div>
             
 
 
             <div className="flex flex-col h-full p-6 bg-gray-800 text-center" data-aos="fade-up">
+            <a href="/committees/Technical/TRC">
+
               <div className='alignment-trc'>
                 <div className="relative inline-flex flex-col mb-4">
                   <div className="spacing"></div>
-                  <a href="/committees/Technical/TRC">
                 <Image className="rounded-full logo-image" src={TRC} width={100} height={100} alt="Testimonial 02" />
-                </a>
                 </div>
               </div>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Tech And Research Cell </cite>  <a className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0"></a>
               </div>
+              </a>
             </div>
 
             
