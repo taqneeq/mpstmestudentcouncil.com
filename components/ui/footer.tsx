@@ -94,7 +94,7 @@ export default function Footer() {
               </li> */}
               <li className="ml-4">
                 <Link
-                  href="/"
+                  href="https://www.instagram.com/students.council.mpstme/"
                   className="flex justify-center items-center text-yellow-600 bg-gray-800 hover:text-gray-100 hover:bg-yellow-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Instagram"
                 >
@@ -111,7 +111,7 @@ export default function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  href="/"
+                  href="https://www.linkedin.com/company/student-council-mpstme/"
                   className="flex justify-center items-center text-yellow-600 bg-gray-800 hover:text-gray-100 hover:bg-yellow-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Linkedin"
                 >

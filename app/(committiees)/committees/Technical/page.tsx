@@ -29,7 +29,7 @@ export default function Committees() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Technical Committees</h1>
+            <h1 className="h1">Technical committees</h1>
           </div>
 
 
@@ -38,7 +38,7 @@ export default function Committees() {
 <a href="/committees/Technical/TRC">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees </div>
+  <div className="box-label">Technical committees </div>
   <div className="box-title">Tech And Research Cell</div>
   <div className="box-image">
     <Image src={trc} alt=""/>
@@ -48,7 +48,7 @@ export default function Committees() {
 <a href="/committees/Technical/ACM">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">ACM</div>
   <div className="box-image">
     <Image src={ACM} alt=""/>
@@ -60,7 +60,7 @@ export default function Committees() {
 <a href="/committees/Technical/IET">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">IET</div>
   <div className="box-image">
   <Image src={IET} alt=""/>
@@ -72,7 +72,7 @@ export default function Committees() {
 <a href="/committees/Technical/ISA">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees </div>
+  <div className="box-label">Technical committees </div>
   <div className="box-title">ISA</div>
   <div className="box-image">
   <Image src={ISA} alt=""/>
@@ -83,7 +83,7 @@ export default function Committees() {
 <a href="/committees/Technical/IETE">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">IETE</div>
   <div className="box-image">
   <Image src={IETE} alt=""/>
@@ -94,7 +94,7 @@ export default function Committees() {
 <a href="/committees/Technical/ISME">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">ISME</div>
   <div className="box-image">
   <Image src={ISME} alt=""/>
@@ -105,7 +105,7 @@ export default function Committees() {
 <a href="/committees/Technical/Kosmos">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">KOSMOS</div>
   <div className="box-image">
   <Image src={Kosmos} alt=""/>
@@ -117,7 +117,7 @@ export default function Committees() {
 <a href="/committees/Technical/Racing">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">Racing Team</div>
   <div className="box-image">
   <Image src={Racing} alt=""/>
@@ -128,7 +128,7 @@ export default function Committees() {
 <a href="/committees/Technical/ASCE">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">ASCE</div>
   <div className="box-image">
   <Image src={Asce} alt=""/>
@@ -150,7 +150,7 @@ export default function Committees() {
 <a href="/committees/Technical/ASME">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">ASME</div>
   <div className="box-image">
   <Image src={Asme} alt=""/>
@@ -160,7 +160,7 @@ export default function Committees() {
 <a href="/committees/Technical/GDSC">
 <div className="box">
   <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
+  <div className="box-label">Technical committees</div>
   <div className="box-title">GDSC</div>
   <div className="box-image">
   <Image src={Gdsc} alt=""/>

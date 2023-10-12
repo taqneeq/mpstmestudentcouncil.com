@@ -9,6 +9,7 @@ export const metadata = {
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
   import hero from '@/public/images/oldimages/gdsc.png'    
+  import '@/app/css/changes.css'
 
   import Flagships from '@/components/flagships'
 
