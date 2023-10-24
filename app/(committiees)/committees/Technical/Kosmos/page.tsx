@@ -8,7 +8,7 @@ export const metadata = {
   import Link from 'next/link'
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
-  import hero from '@/public/images/oldimages/kosmos.jpg'    
+  import hero from '@/public/images/oldimages/Kosmos.jpg'    
   import '@/app/css/changes.css'
 
 
@@ -34,7 +34,7 @@ export const metadata = {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
               <h2 className="h2 mb-4">Our Vision.</h2>
-              <p className="text-xl text-gray-400">eam Kosmos is a newly formed mars rover team. The term ‘Kosmos’ is the direct german translation of the word ‘cosmos’ which refers to the universe as a whole. The word is written in german as an ode to the fact that Germany was once the greatest hub of innovation, remnants of which are still present today. Team Kosmos’ vision lines up with both the ideas presented above. We aim to explore the universe through engineering. Through this team, we hope to expose students in MPSTME to a very meaningful and real-life application of engineering and instil in them a “learn as you do” approach, which is very important in all fields of technology
+              <p className="text-xl text-gray-400">Team Kosmos is a newly formed mars rover team. The term ‘Kosmos’ is the direct german translation of the word ‘cosmos’ which refers to the universe as a whole. The word is written in german as an ode to the fact that Germany was once the greatest hub of innovation, remnants of which are still present today. Team Kosmos’ vision lines up with both the ideas presented above. We aim to explore the universe through engineering. Through this team, we hope to expose students in MPSTME to a very meaningful and real-life application of engineering and instil in them a “learn as you do” approach, which is very important in all fields of technology
 
 </p> 
               </div>
