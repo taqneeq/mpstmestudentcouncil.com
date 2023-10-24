@@ -19,7 +19,7 @@ export default function Committees() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Sports Committees</h1>
+            <h1 className="h1">Sports Committiee</h1>
           </div>
 
 
