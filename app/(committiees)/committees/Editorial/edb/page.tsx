@@ -119,7 +119,7 @@ export default function ResetPassword() {
                       </li>
                       <li>
                         <a href="#" target="_blank" className="profile">
-                          <h2 className="profile__name">Neil Shah </h2>
+                          <h2 className="profile__name">Neel Shah </h2>
                           <p>Joint Secretary</p>
                           <Image alt="Prabir Kalwani" src={neel} />
                         </a>

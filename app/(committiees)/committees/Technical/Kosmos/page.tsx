@@ -8,7 +8,7 @@ export const metadata = {
   import Link from 'next/link'
   import Image from 'next/image'
   import Footer from '@/components/ui/footer'
-  import hero from '@/public/images/oldimages/Kosmos.jpg'    
+  import hero from '@/public/images/oldimages/kosmos.jpg'    
   import '@/app/css/changes.css'
 
 
