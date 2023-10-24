@@ -1,5 +1,5 @@
 export const metadata = {
-    title: 'Editorial BoardMPSTME ',
+    title: 'Racing TeamMPSTME ',
     description: 'Page description',
   }
   
