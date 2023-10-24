@@ -8,7 +8,7 @@ import prabir from "../../../../../public/images/prabir.jpeg";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "@/components/ui/footer";
-import cult from "@/public/images/features-03-image-01.png";
+import cult from "@/public/images/Group_Pics/cult.jpeg";
 import stock from "@/public/images/logo.png";
 import Tushita from "@/public/images/core/Cult/Tushita Shetty.jpeg";
 import Arpit from "@/public/images/core/Cult/BDCB2C25-02B3-47DE-A613-9810C2F2F1C8.jpeg";
@@ -36,20 +36,16 @@ export default function ResetPassword() {
                 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                   <h2 className="h2 mb-4">Our Vision.</h2>
                   <p className="text-xl text-gray-400">
-                    When it comes to talking numbers and matters of money,
-                    nobody does it better than us. Colloquium, The Business and
-                    Management Cell of the Students’ Council, aims towards
-                    collaborating with the corporate world while acclimating the
-                    team to enter the professional arena. Partnering with the
-                    biggest of banks, brands and tech giants like OnePlus, ICICI
-                    Bank, Starbucks, Axis Bank, NSDL, LinkedIn, Snapchat and
-                    Ebay are just specks in a plethora of achievements we boast
-                    here at Colloquium. We believe in the ethos of “If work
-                    isn’t fun, you’re not playing on the right team”. Helping
-                    students become more confident, knowledgeable and
-                    marketable, and providing them with opportunities to create
-                    long-lasting relationships with like-minded individuals has
-                    always been at the top of our list.
+                  The Cultural Committee is the centre of all the excitement-filled, thrilling events and activities at
+            MPSTME. We give
+            our fellow students an opportunity to display all their creative hobbies & passions as we also host the
+            dance, drama &
+            music team of the college. Our main goal is to provide all students as well as teachers a much required &
+            fun-filled
+            break from stressful exams & monotonous lectures, by granting them the chance to enjoy some entertainment
+            through our
+            various cultural events.
+
                   </p>{" "}
                 </div>
                 <Flagships

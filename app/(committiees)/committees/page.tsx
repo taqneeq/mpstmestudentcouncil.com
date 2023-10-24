@@ -47,7 +47,7 @@ export default function SignIn() {
                   <div className="font-architects-daughter text-xl text-red-600 mb-2">Driving Motivation </div>
                   <h3 className="h3 mb-3">Technical Committees</h3>
 
-                  <p className="text-xl text-gray-400 mb-4">The university aims to offer a medium for the holistic development of students. The students are encouraged to build upon their skills and enhance their capabilities throughout their term.</p>
+                {/* <p className="text-xl text-gray-400 mb-4">The university aims to offer a medium for the holistic development of students. The students are encouraged to build upon their skills and enhance their capabilities throughout their term.</p> */}
                   <a href="committees/Technical" className=""><div className="border-2 border-yellow-600 rounded-lg px-3 py-2 text-yellow-400 cursor-pointer hover:bg-yellow-600 hover:text-yellow-200">
 
           Click here to know more
@@ -89,7 +89,7 @@ export default function SignIn() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-red-600 mb-2">More speed. Less spend</div>
                   <h3 className="h3 mb-3">Social work</h3>
-                  <p className="text-xl text-gray-400 mb-4">It is important to give back to society and create a healthy environment for us. The university believes in providing for the underprivileged and those who need help through donations and other activities planned for helping the poor with rations and other facilities.</p>
+                  {/* <p className="text-xl text-gray-400 mb-4">It is important to give back to society and create a healthy environment for us. The university believes in providing for the underprivileged and those who need help through donations and other activities planned for helping the poor with rations and other facilities.</p> */}
                   <a href="committees/Social" className="">
             <div className="border-2 border-yellow-600 rounded-lg px-3 py-2 text-yellow-400 cursor-pointer hover:bg-yellow-600 hover:text-yellow-200">
           Click here to know more
@@ -131,7 +131,7 @@ export default function SignIn() {
     <div className="md:pr-4 lg:pr-12 xl:pr-16">
       <div className="font-architects-daughter text-xl text-red-600 mb-2">More speed. Less spend</div>
       <h3 className="h3 mb-3">Women Empowerment </h3>
-      <p className="text-xl text-gray-400 mb-4">It is important to give back to society and create a healthy environment for us. The university believes in providing for the underprivileged and those who need help through donations and other activities planned for helping the poor with rations and other facilities.</p>
+      {/* <p className="text-xl text-gray-400 mb-4">It is important to give back to society and create a healthy environment for us. The university believes in providing for the underprivileged and those who need help through donations and other activities planned for helping the poor with rations and other facilities.</p> */}
       <a href="committees/WomenEm" className="">
       <div className="border-2 border-yellow-600 rounded-lg px-3 py-2 text-yellow-400 cursor-pointer hover:bg-yellow-600 hover:text-yellow-200">
           Click here to know more
@@ -176,7 +176,7 @@ export default function SignIn() {
       <div className="font-architects-daughter text-xl text-red-600 mb-2">More speed. Less spend</div>
       <h3 className="h3 mb-3">Sports</h3>
       
-      <p className="text-xl text-gray-400 mb-4">It is important to give back to society and create a healthy environment for us. The university believes in providing for the underprivileged and those who need help through donations and other activities planned for helping the poor with rations and other facilities.</p>
+      {/* <p className="text-xl text-gray-400 mb-4">It is important to give back to society and create a healthy environment for us. The university believes in providing for the underprivileged and those who need help through donations and other activities planned for helping the poor with rations and other facilities.</p> */}
       <a href="committees/Sports" className="">
 
       <div className="border-2 border-yellow-600 rounded-lg px-3 py-2 text-yellow-400 cursor-pointer hover:bg-yellow-600 hover:text-yellow-200">

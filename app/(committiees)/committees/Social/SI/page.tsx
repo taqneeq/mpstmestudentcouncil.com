@@ -96,7 +96,7 @@ export default function ResetPassword() {
                       </li>
                       <li>
                         <a href="#" target="_blank" className="profile">
-                          <h2 className="profile__name">Advit Udyabhanu</h2>
+                          <h2 className="profile__name">Advait Udyabhanu</h2>
                           <p> Secretary</p>
                           <Image alt="Prabir Kalwani" src={advit} />
                         </a>
