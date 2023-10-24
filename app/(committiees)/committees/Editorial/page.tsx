@@ -6,7 +6,7 @@ export const metadata = {
 import Link from 'next/link'
 import '../../../css/morecards.css'
 import Mun from '../../../../public/images/oldimages/MUNSOC_LOGO_TRANSPARENT_1.png'
-import Edb from '../../../../public/images/oldimages/edboard.png'
+import Edb from '../../../../public/images/edb.png'
 
 
 import Image from 'next/image'

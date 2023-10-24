@@ -95,7 +95,7 @@ export default function ResetPassword() {
                     <ul className="auto-grid" role="list">
                       <li>
                         <a href="#" target="_blank" className="profile">
-                          <h2 className="profile__name">Adhya</h2>
+                          <h2 className="profile__name">Adhya Khandelwal</h2>
                           <p>Secretary</p>
                           <Image alt="Prabir Kalwani" src={stock} />
                         </a>
