@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/logo.png";
+import logo from "@/public/images/council-logo.png";
+import mukeshpatel from '@/public/images/MPSTME-Logo.png'
 
 export default function Footer() {
   return (
@@ -12,9 +13,11 @@ export default function Footer() {
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5">
-              <div className="mb-2">
-                 {/* Logo */}
-                <Image src={logo} alt="Features 03" width={60} height={60} />
+              <div className="mb-3">
+                <div className="flex items-center space-x-4">
+                <Image src={mukeshpatel} alt="Council Logo" width={350} />
+                <Image src={logo} alt="Council Logo" width={60} height={60} />
+                </div>
               </div>
               <div className="text-gray-400"> </div>
             </div>

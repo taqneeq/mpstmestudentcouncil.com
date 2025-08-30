@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
-import logo from '@/public/images/logo.png'
+import logo from '@/public/images/council-logo.png'
 import Image from 'next/image'
 import mukeshpatel from '@/public/images/MPSTME-Logo.png'
+
 export default function Header() {
   return (
     <header className="absolute w-full z-30">
