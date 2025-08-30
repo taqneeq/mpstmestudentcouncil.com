@@ -3,7 +3,7 @@ import './css/style.css'
 import { Inter, Architects_Daughter } from 'next/font/google'
 
 import Header from '@/components/ui/header'
-import Banner from '@/components/banner'
+// import Banner from '@/components/banner'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -31,10 +31,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>
+        <script defer src="https://umami.mpst.me/script.js" data-website-id="104c14c4-cd4c-46ad-abfa-8aa6432409bb"></script>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
-          <Banner />
+          {/* <Banner /> */}
         </div>
       </body>
     </html>
