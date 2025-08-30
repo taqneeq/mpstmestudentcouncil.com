@@ -1,5 +1,3 @@
-// file: app/(committees)/committees/[category]/[committee]/page.tsx
-
 import { committeesData } from '@/lib/commiteesData';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
@@ -12,8 +10,8 @@ export async function generateStaticParams() {
   for (const category of committeesData) {
     for (const committee of category.committees) {
       paths.push({
-        category: category.categorySlug,
-        committee: committee.slug,
+        category: category.name.toLowerCase(),
+        committee: committee.name.toLowerCase(),
       });
     }
   }
@@ -22,15 +20,21 @@ export async function generateStaticParams() {
 
 export default function CommitteePage({ params }: { params: { category: string; committee: string } }) {
   
-  // 👇 FIX 1: Convert params to lowercase for case-insensitive matching
-  const categorySlug = params.category.toLowerCase();
-  const committeeSlug = params.committee.toLowerCase();
+  const categoryParam = params.category.toLowerCase();
+  const committeeParam = params.committee.toLowerCase();
 
-  const categoryData = committeesData.find(c => c.categorySlug === categorySlug);
-  const committeeData = categoryData?.committees.find(com => com.slug === committeeSlug);
+  const categoryData = committeesData.find(c => c.name.toLowerCase() === categoryParam);
+  const committeeData = categoryData?.committees.find(com => com.name.toLowerCase() === committeeParam);
 
-  if (!committeeData) {
+  if (!categoryData || !committeeData) {
     notFound();
+  }
+
+  let logoUrl = '';
+  if (categoryParam === 'fests') {
+    logoUrl = `/images/fests/${committeeParam}/logo.png`;
+  } else {
+    logoUrl = `/images/committees/${categoryParam}/${committeeParam}/logo.png`;
   }
 
   return (
@@ -41,7 +45,7 @@ export default function CommitteePage({ params }: { params: { category: string; 
           
           <h1 className="text-5xl font-bold tracking-tight">{committeeData.name}</h1>
           <Image
-            src={committeeData.logoUrl}
+            src={logoUrl}
             alt={`${committeeData.name} Logo`}
             width={250}
             height={250}
@@ -66,12 +70,11 @@ export default function CommitteePage({ params }: { params: { category: string; 
             </div>
           </section>
 
-          {/* 👇 FIX 2: More explicit check for the team section */}
-          {(categorySlug === 'council' || categorySlug === 'fests') && committeeData.team && (
+          {/* This logic is now safe because the check above guarantees categoryData exists */}
+          {(categoryData.name.toLowerCase() === 'council' || categoryData.name.toLowerCase() === 'fests') && committeeData.team && (
             <section className="w-full">
               <h2 className="text-3xl font-semibold mb-8">Our Team.</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
-                {/* Now TypeScript knows committeeData.team is guaranteed to exist here */}
                 {committeeData.team.map((member) => (
                   <div key={member.name} className="team-member-card">
                     <Image
@@ -96,3 +99,4 @@ export default function CommitteePage({ params }: { params: { category: string; 
     </>
   );
 }
+
