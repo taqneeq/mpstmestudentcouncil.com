@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import GeneralTest from '@/public/images/testimonial-00.jpg'
-import soham from '@/public/images/oldimages/Soham.jpeg'
-import tanya from '@/public/images/oldimages/Tanya.jpeg'
-import nidhi from '@/public/images/oldimages/Nidhi.jpg'
-import parth from '@/public/images/oldimages/parth.jpeg'
-import renesh from '@/public/images/renesh.jpeg'
+import soham from '@/public/images/council-logo.png'
+import tanya from '@/public/images/council-logo.png'
+import nidhi from '@/public/images/council-logo.png'
+import parth from '@/public/images/council-logo.png'
+import renesh from '@/public/images/council-logo.png'
 export default function Testimonials() {
   return (
     <section>
