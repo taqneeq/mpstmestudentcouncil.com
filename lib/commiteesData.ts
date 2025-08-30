@@ -100,7 +100,6 @@ export const committeesData: Category[] = [
           { name: 'ADAPPT', description: 'An annual ideathon designed to bring together innovative minds to solve real-world challenges across four key domains.' },
         ],
       },
-      // ✨ NEWLY ADDED COMMITTEES START HERE ✨
       {
         name: 'CodeBase',
         vision: 'To cultivate a strong programming culture at MPSTME by bridging academic concepts with real-world coding applications and fostering a collaborative environment for all skill levels.',
