@@ -20,3 +20,22 @@
 [x-cloak=""] {
     display: none;
 }
+
+.team-member-card {
+  @apply relative rounded-lg overflow-hidden cursor-pointer aspect-square;
+}
+
+.team-member-card img {
+  @apply w-full h-full object-cover transition-all duration-300 ease-in-out;
+  filter: grayscale(100%); /* Start in black and white */
+}
+
+.team-member-card:hover img {
+  filter: grayscale(0%); /* Color on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.member-name-overlay {
+  @apply absolute bottom-0 left-0 right-0 p-3 text-center bg-gradient-to-t from-black/80 to-transparent;
+  @apply text-white font-bold transition-opacity duration-300;
+}

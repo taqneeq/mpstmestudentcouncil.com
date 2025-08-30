@@ -1,0 +1,98 @@
+// file: app/(committees)/committees/[category]/[committee]/page.tsx
+
+import { committeesData } from '@/lib/commiteesData';
+import { notFound } from 'next/navigation';
+import Image from 'next/image';
+
+import Header from '@/components/ui/header';
+import Footer from '@/components/ui/footer';
+
+export async function generateStaticParams() {
+  const paths = [];
+  for (const category of committeesData) {
+    for (const committee of category.committees) {
+      paths.push({
+        category: category.categorySlug,
+        committee: committee.slug,
+      });
+    }
+  }
+  return paths;
+}
+
+export default function CommitteePage({ params }: { params: { category: string; committee: string } }) {
+  
+  // 👇 FIX 1: Convert params to lowercase for case-insensitive matching
+  const categorySlug = params.category.toLowerCase();
+  const committeeSlug = params.committee.toLowerCase();
+
+  const categoryData = committeesData.find(c => c.categorySlug === categorySlug);
+  const committeeData = categoryData?.committees.find(com => com.slug === committeeSlug);
+
+  if (!committeeData) {
+    notFound();
+  }
+
+  return (
+    <>
+      <Header />
+      <main className="bg-black text-white min-h-screen px-4 sm:px-8 py-16">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-12">
+          
+          <h1 className="text-5xl font-bold tracking-tight">{committeeData.name}</h1>
+          <Image
+            src={committeeData.logoUrl}
+            alt={`${committeeData.name} Logo`}
+            width={250}
+            height={250}
+            className="rounded-lg"
+            priority
+          />
+
+          <section className="w-full max-w-2xl">
+            <h2 className="text-3xl font-semibold mb-4">Our Vision.</h2>
+            <p className="text-gray-300 leading-relaxed">{committeeData.vision}</p>
+          </section>
+
+          <section className="w-full max-w-2xl">
+            <h2 className="text-3xl font-semibold mb-6">Flagship Events</h2>
+            <div className="flex flex-col gap-6">
+              {committeeData.flagshipEvents.map((event) => (
+                <div key={event.name}>
+                  <h3 className="text-xl font-bold text-blue-400">{event.name}</h3>
+                  <p className="text-gray-300 mt-1">{event.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* 👇 FIX 2: More explicit check for the team section */}
+          {(categorySlug === 'council' || categorySlug === 'fests') && committeeData.team && (
+            <section className="w-full">
+              <h2 className="text-3xl font-semibold mb-8">Our Team.</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+                {/* Now TypeScript knows committeeData.team is guaranteed to exist here */}
+                {committeeData.team.map((member) => (
+                  <div key={member.name} className="team-member-card">
+                    <Image
+                      src={member.imageUrl}
+                      alt={member.name}
+                      width={300}
+                      height={300}
+                      className="object-cover w-full h-full"
+                    />
+                    <div className="member-name-overlay">
+                      <p>{member.name}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+        </div>
+      </main>
+      <Footer />
+    </>
+  );
+}
