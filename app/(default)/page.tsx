@@ -141,17 +141,8 @@ export default function Home() {
         </div>
       </div>
     </section>
-
-
-
-
-
-
-
-
-
       <Testimonials />
-      <Newsletter />
+      {/* <Newsletter /> */}
     </>
   )
 }

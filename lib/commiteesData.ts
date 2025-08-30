@@ -7,7 +7,8 @@ interface FlagshipEvent {
 
 interface TeamMember {
   name: string;
-  imageUrl: string;
+  position: string;
+  imageUrl?: string;
 }
 
 interface Committee {
@@ -16,11 +17,11 @@ interface Committee {
   logoUrl: string;
   vision: string;
   flagshipEvents: FlagshipEvent[];
-  team?: TeamMember[]; // The '?' makes the 'team' property optional
+  team?: TeamMember[];
 }
 
 interface Category {
-  category: string;
+  category: string; // Council, Fest, Technical, Management, Cultural, Social, Sports, Women
   categorySlug: string;
   committees: Committee[];
 }
@@ -34,18 +35,18 @@ export const committeesData: Category[] = [
       {
         slug: 'sattva',
         name: 'Sattva',
-        logoUrl: '/logos/sattva-logo.png',
+        logoUrl: '/images/fests/sattva.jpg',
         vision: 'Sattva is the cultural heart of MPSTME, celebrating creativity, talent, and the vibrant spirit of our student community through a dazzling array of events.',
         flagshipEvents: [
           { name: 'Cultural Parade', description: 'A vibrant showcase of traditions from across the country.' },
           { name: 'Battle of the Bands', description: 'Where musical talents clash for ultimate glory.' },
         ],
         team: [
-          { name: 'Adhya Khandelwal', imageUrl: '/team/sc-logo.png' },
-          { name: 'Soham Surve', imageUrl: '/team/soham.jpg' },
-          { name: 'Manan Siroya', imageUrl: '/team/manan.jpg' },
-          { name: 'Shubham Tanna', imageUrl: '/team/shubham.jpg' },
-          { name: 'Sarah Noorani', imageUrl: '/team/sc-logo.png' },
+          { name: 'Adhya Khandelwal', position:"", imageUrl: '/images/prabir.jpeg' },
+          { name: 'Soham Surve', position:"", imageUrl: '/team/soham.jpg' },
+          { name: 'Manan Siroya', position:"", imageUrl: '/team/manan.jpg' },
+          { name: 'Shubham Tanna', position:"", imageUrl: '/team/shubham.jpg' },
+          { name: 'Sarah Noorani', position:"", imageUrl: '/team/sc-logo.png' },
         ],
       },
     ],
@@ -57,7 +58,7 @@ export const committeesData: Category[] = [
       {
         slug: 'acm',
         name: 'ACM',
-        logoUrl: '/logos/acm-logo.png',
+        logoUrl: '/images/oldimages/acm.png',
         vision: 'ACM Student Chapters facilitate communication and collaboration within a university’s computer science community and with the computing community at large.',
         flagshipEvents: [
           { name: 'SemiCode', description: 'SemiCode is ACM MPSTME’s flagship event. It is a three-round coding competition in collaboration with other ACM Chapters.' },
