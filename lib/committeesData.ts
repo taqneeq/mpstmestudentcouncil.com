@@ -17,12 +17,100 @@ interface Committee {
 }
 
 interface Category {
-  name: string; 
+  name: string;
   committees: Committee[];
 }
 
 // Apply the 'Category[]' type to your data array
 export const committeesData: Category[] = [
+  {
+    name: 'Council',
+    committees: [
+      {
+        name: 'Colloquium',
+        vision: 'Dedicated to bridging the gap between academia and the corporate landscape, Colloquium prepares its members for the professional world through strategic industry collaborations with leading global brands.',
+        flagshipEvents: [
+          { name: 'Stockraze', description: 'A pseudo stock market simulation giving participants a platform to gain exposure about financial markets and investing.' },
+          { name: 'Bizzneeti', description: 'A National Level Business Planning Competition for budding entrepreneurs to showcase their startup ideas to angel investors.' },
+          { name: 'LinkedIn Workshop', description: 'An official workshop in collaboration with LinkedIn India on the importance of professional networking.' },
+        ],
+        team: [
+          { name: 'Piyush Agarwal', imageUrl: '/path/to/image.png' },
+          { name: 'Anshika Pattnaik', imageUrl: '/path/to/image.png' },
+          { name: 'Poorvi Malhotra', imageUrl: '/path/to/image.png' },
+          { name: 'Pramey Shah', imageUrl: '/path/to/image.png' },
+          { name: 'Shirin Sharma', imageUrl: '/path/to/image.png' },
+        ]
+      },
+      {
+        name: 'Cultural Committee',
+        vision: 'To create a lively campus atmosphere by curating events that bring students together, celebrate creativity, and offer a refreshing break from academics, building a strong sense of community.',
+        flagshipEvents: [
+          { name: 'Cultural Night', description: 'One of the most anticipated evenings of the year, featuring lively music, captivating performances, and a joyous atmosphere.' },
+          { name: 'Carnival', description: 'A day-long celebration with food stalls, interactive games, and a concluding Comedy Night with well-known comedians.' },
+          { name: 'Traditional Day', description: 'A celebration of cultural heritage where students dress in elegant ethnic attire, with photobooths and curated stalls.' },
+        ],
+        team: [
+          { name: 'Daneeka Roy', imageUrl: '/path/to/image.png' },
+          { name: 'Darsh Dadhich', imageUrl: '/path/to/image.png' },
+          { name: 'Niyati Reddy', imageUrl: '/path/to/image.png' },
+          { name: 'Prisha Mistry', imageUrl: '/path/to/image.png' },
+          { name: 'Vihan Joshi', imageUrl: '/path/to/image.png' },
+        ]
+      },
+      {
+        name: 'Editorial Board',
+        vision: 'To build a creative culture where voices are valued, ideas are nurtured, and art in all its forms is celebrated, creating a space where literature, creativity, and conversation intersect.',
+        flagshipEvents: [
+          { name: 'The Editorial Project (TEP)', description: 'A flagship event celebrating creative expression with sub-events like Comic Con, Open Mic Night, a Literary Seminar, and an Artist Night.' },
+          { name: 'Blind Date with a Book', description: 'An annual event where books are wrapped anonymously, encouraging students to discover new genres based on curiosity alone.' },
+          { name: 'Chapter One', description: 'A platform that honors and launches original books written by student authors, featuring reading sessions and discussions.' },
+        ]
+      },
+      {
+        name: 'Outreach',
+        vision: 'To build a dynamic, interconnected student ecosystem where every committee thrives through meaningful collaboration, transforming individual events into shared experiences.',
+        flagshipEvents: [
+          { name: 'CL (Contingent Leaders) Meet', description: 'An event where representatives from various colleges are invited to build strong inter-college connections for upcoming events.' },
+          { name: 'Prize Distribution Ceremony', description: 'An event to acknowledge the efforts of students who actively contributed to events throughout the year with awards.' },
+        ],
+        team: [
+          { name: 'Siddhi Gandhi', imageUrl: '/path/to/image.png' },
+          { name: 'Shashank Doshi', imageUrl: '/path/to/image.png' },
+          { name: 'Ritwik Sharma', imageUrl: '/path/to/image.png' },
+          { name: 'Madhav Sahi', imageUrl: '/path/to/image.png' },
+          { name: 'Jal Mehta', imageUrl: '/path/to/image.png' },
+        ]
+      },
+      {
+        name: 'Social Impact',
+        vision: 'To exhaust the resources at hand to extend help to all who need it, working tirelessly towards the eradication of various social issues in association with different NGOs.',
+        flagshipEvents: [
+          { name: 'Social Conclave', description: 'A UN-backed socio-economic conference where delegates discuss significant social issues to find sustainable solutions.' },
+          { name: 'Beach Clean-up', description: 'An initiative to curb waste and plastics deposited at Juhu Beach post-Ganpati Visarjan.' },
+          { name: 'Blood Donation Drive', description: 'An opportunity for students and staff from all SVKM colleges to save lives by donating blood.' },
+        ]
+      },
+      {
+        name: 'Sports Committee',
+        vision: 'To cultivate a vibrant sports culture that connects every individual, fostering a sense of family where passion meets purpose and every effort is valued.',
+        flagshipEvents: [
+          { name: 'Conquer', description: 'A premier national-level sports tournament spanning 20 days and 7 core sporting disciplines with colleges from across the country.' },
+          { name: 'Gamers’ Asylum', description: 'A thrilling multi-title eSports event bringing together passionate gamers on campus for titles like FIFA, F1, and Valorant.' },
+          { name: 'University Turf Tournament', description: 'An exciting inter-NMIMS football competition that brings together teams from various NMIMS campuses.' },
+        ]
+      },
+      {
+        name: 'TRC',
+        vision: 'To build a vibrant, research-driven ecosystem that empowers students to explore, innovate, and excel in science, technology, and engineering, bridging the gap between academia and real-world applications.',
+        flagshipEvents: [
+          { name: 'Bombay Research Summit', description: 'A flagship three-day event dedicated to fostering research and innovation, featuring the Innovation Arena for pitches to experts.' },
+          { name: 'Taqneeq', description: 'The official technical festival of MPSTME, a vibrant celebration of innovation, creativity, and technical excellence.' },
+          { name: 'Internship Fair', description: 'A campus-wide initiative connecting students with valuable industry experience through internships with over 20+ companies.' },
+        ]
+      }
+    ]
+  },
   {
     name: 'Fests',
     committees: [
@@ -46,7 +134,6 @@ export const committeesData: Category[] = [
   {
     name: 'Technical',
     committees: [
-      // Previously added committees
       {
         name: 'ACM',
         vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
@@ -149,7 +236,7 @@ export const committeesData: Category[] = [
         name: 'TeamDarvin',
         vision: 'To pioneer innovation in autonomous mobility by building intelligent ground vehicles that blend engineering excellence with real-world impact and represent India on the global stage.',
         flagshipEvents: [
-            { name: 'IGVC (Intelligent Ground Vehicle Competition)', description: 'Participation in the prestigious international robotics event held annually at Oakland University, Michigan, USA, focusing on autonomous navigation.' },
+          { name: 'IGVC (Intelligent Ground Vehicle Competition)', description: 'Participation in the prestigious international robotics event held annually at Oakland University, Michigan, USA, focusing on autonomous navigation.' },
         ],
       },
       {

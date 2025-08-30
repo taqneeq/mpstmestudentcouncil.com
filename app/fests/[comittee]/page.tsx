@@ -1,4 +1,4 @@
-import { committeesData } from '@/lib/commiteesData';
+import { committeesData } from '@/lib/committeesData';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 

@@ -1,185 +1,67 @@
-export const metadata = {
-  title: 'Technical Committiees',
-  description: '',
+import { committeesData } from '@/lib/committeesData';
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import Image from 'next/image';
+
+export async function generateMetadata({ params }: { params: { category: string } }) {
+  const categoryName = params.category.charAt(0).toUpperCase() + params.category.slice(1);
+  return {
+    title: `${categoryName} Committees`,
+    description: `Browse all ${categoryName} committees at MPSTME.`,
+  };
 }
 
-import Link from 'next/link'
-import '../../../css/morecards.css'
-import trc from '@/public/images/council-logo.png'
-import ACM from '@/public/images/council-logo.png'
-import IET from '@/public/images/council-logo.png'
-import ISA from '@/public/images/council-logo.png'
-import IETE from '@/public/images/council-logo.png'
-import ISME from '@/public/images/council-logo.png'
-import Kosmos from '@/public/images/council-logo.png'
-import Racing from '@/public/images/council-logo.png'
-import Asme from '@/public/images/council-logo.png'
-import Robocon from '@/public/images/council-logo.png'
-import Asce from '@/public/images/council-logo.png'
-import Gdsc from '@/public/images/council-logo.png'
-import Image from 'next/image'
+export default function CategoryPage({ params }: { params: { category: string } }) {
+  const categoryParam = params.category.toLowerCase();
+  const categoryData = committeesData.find(c => c.name.toLowerCase() === categoryParam);
 
+  if (!categoryData) {
+    notFound();
+  }
 
-
-export default function Committees() {
   return (
-    <section className="relative">
+    <section className="bg-black text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
-          {/* Page header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Technical committees</h1>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <h1 className="text-4xl md:text-5xl font-extrabold capitalize" data-aos="fade-up">
+              {categoryData.name} Committees
+            </h1>
           </div>
 
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {categoryData.committees.map((committee) => {
+              const committeeSlug = committee.name.toLowerCase().replace(/\s+/g, '');
+              const logoSrc = `/images/committees/${categoryParam}/${committeeSlug}/logo.png`;
+              
+              return (
+                <Link
+                  key={committee.name}
+                  href={`/committees/${categoryParam}/${committeeSlug}`}
+                  className="group flex flex-col items-center p-6 bg-zinc-900 rounded-lg border border-zinc-800 hover:bg-zinc-800 transition-all duration-300 ease-in-out"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div className="relative w-32 h-32 mb-4 flex-shrink-0">
+                    <Image
+                      src={logoSrc}
+                      alt={`${committee.name} Logo`}
+                      layout="fill"
+                      objectFit="contain"
+                      className="group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-center text-gray-100">
+                    {committee.name}
+                  </h3>
+                </Link>
+              );
+            })}
+          </div>
 
-</div>
-<div className="box-wrapper">
-<a href="/committees/Technical/TRC">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees </div>
-  <div className="box-title">Tech And Research Cell</div>
-  <div className="box-image">
-    <Image src={trc} alt=""/>
-  </div>
-</div>
-</a>
-<a href="/committees/Technical/ACM">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">ACM</div>
-  <div className="box-image">
-    <Image src={ACM} alt=""/>
-  </div>
-  
-</div>
-</a>
-
-<a href="/committees/Technical/IET">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">IET</div>
-  <div className="box-image">
-  <Image src={IET} alt=""/>
-  </div>
-  
-</div>
-</a>
-
-<a href="/committees/Technical/ISA">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees </div>
-  <div className="box-title">ISA</div>
-  <div className="box-image">
-  <Image src={ISA} alt=""/>
-  </div>
-</div>
-</a>
-
-<a href="/committees/Technical/IETE">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">IETE</div>
-  <div className="box-image">
-  <Image src={IETE} alt=""/>
-  </div>
-</div>
-</a>
-
-<a href="/committees/Technical/ISME">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">ISME</div>
-  <div className="box-image">
-  <Image src={ISME} alt=""/>
-  </div>
-</div>
-</a>
-
-<a href="/committees/Technical/Kosmos">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">KOSMOS</div>
-  <div className="box-image">
-  <Image src={Kosmos} alt=""/>
-  </div>
-</div>
-</a>
-
-
-<a href="/committees/Technical/Racing">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">Racing Team</div>
-  <div className="box-image">
-  <Image src={Racing} alt=""/>
-  </div>
-</div>
-</a>
-
-<a href="/committees/Technical/ASCE">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">ASCE</div>
-  <div className="box-image">
-  <Image src={Asce} alt=""/>
-  </div>
-</div></a>
-
-
-<a href="/committees/Technical/Robocon">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical Committiees</div>
-  <div className="box-title">ROBOCON</div>
-  <div className="box-image">
-  <Image src={Robocon} alt=""/>
-  </div>
-</div>
-</a>
-
-<a href="/committees/Technical/ASME">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">ASME</div>
-  <div className="box-image">
-  <Image src={Asme} alt=""/>
-  </div>
-</div>
-</a>
-<a href="/committees/Technical/GDSC">
-<div className="box">
-  <div className="box-icon"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg></div>
-  <div className="box-label">Technical committees</div>
-  <div className="box-title">GDSC</div>
-  <div className="box-image">
-  <Image src={Gdsc} alt=""/>
-  </div>
-</div>
-</a>
-
-
-
-  </div>
-
-
-</div>
-</section>
-
-
-
-
-
-
-  )
+        </div>
+      </div>
+    </section>
+  );
 }
