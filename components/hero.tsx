@@ -35,7 +35,7 @@ export default function Hero() {
                 <a className="btn text-white bg-yellow-600 hover:bg-yellow-700 w-full sm:w-auto" href="/committees">Student Chapter Committees</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="500">
-                <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full sm:w-auto" href="/committees/Event_Calendar">Latest Event</a>
+                <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full sm:w-auto" href="/calendar">Latest Event</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto" href="/committees/Fests">College Fests</a>
