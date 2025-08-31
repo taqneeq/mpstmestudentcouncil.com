@@ -3,11 +3,6 @@
 import { useState } from 'react'
 import '@/app/css/event.css'
 
-export const metadata = {
-  title: 'Committees',
-  description: 'The various committees of MPSTME',
-}
-
 const events = [
   {
     year: "October 2023",
