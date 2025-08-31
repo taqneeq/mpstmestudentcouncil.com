@@ -22,7 +22,7 @@ export default function Hero() {
                 Council Committees
               </Link>
               <Link className="btn text-white bg-zinc-700 hover:bg-zinc-600 w-full rounded-md py-3" href="/committees/">
-                Chapter Committees
+                All Committees
               </Link>
               <Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full rounded-md py-3" href="/calendar">
                 Latest Events

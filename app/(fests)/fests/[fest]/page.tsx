@@ -18,24 +18,18 @@ export async function generateStaticParams() {
   return paths;
 }
 
-export default function CommitteePage({ params }: { params: { category: string; committee: string } }) {
+export default function CommitteePage({ params }: { params: { fest: string } }) {
   
-  const categoryParam = params.category.toLowerCase();
-  const committeeParam = params.committee.toLowerCase();
+  const committeeParam = params.fest.toLowerCase();
 
-  const categoryData = committeesData.find(c => c.name.toLowerCase() === categoryParam);
+  const categoryData = committeesData.find(c => c.name.toLowerCase() === "fests");
   const committeeData = categoryData?.committees.find(com => com.name.toLowerCase() === committeeParam);
 
   if (!categoryData || !committeeData) {
     notFound();
   }
 
-  let logoUrl = '';
-  if (categoryParam === 'fests') {
-    logoUrl = `/images/fests/${committeeParam}/logo.png`;
-  } else {
-    logoUrl = `/images/committees/${categoryParam}/${committeeParam}/logo.png`;
-  }
+  const logoUrl = `/images/fests/${committeeParam}/logo.png`;
 
   return (
     <>

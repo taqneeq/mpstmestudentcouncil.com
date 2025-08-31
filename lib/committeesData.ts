@@ -144,7 +144,7 @@ export const committeesData: Category[] = [
         ],
       },
       {
-        name: 'IEEE RAS',
+        name: 'RAS',
         vision: 'To be the leading student community at NMIMS that inspires innovation, nurtures technical excellence, and shapes future leaders in robotics and automation by fostering a culture of hands-on learning, collaboration, and industry relevance.',
         flagshipEvents: [
           { name: 'CodeRed', description: 'An energetic onboarding event with creative games, treasure hunts, and trivia rounds to foster team bonding.' },
@@ -244,6 +244,79 @@ export const committeesData: Category[] = [
         vision: 'To be a pioneering force in robotics by creating intelligent, theme-driven robotic systems that compete at the highest levels of Robocon India and inspire the next generation of engineers.',
         flagshipEvents: [
           { name: 'Robocon India', description: 'Annual participation in the national-level robotics competition under the Asia-Pacific Broadcasting Union (ABU), with the winner representing India internationally.' },
+        ],
+      },
+    ],
+  },
+  {
+    name: 'Management',
+    committees: [
+      {
+        name: '4C',
+        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
+        ],
+      },
+      {
+        name: 'Findrome',
+        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
+        ],
+      },
+      {
+        name: 'IEC',
+        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
+        ],
+      },
+    ],
+  },
+  {
+    name: 'Others',
+    committees: [
+      {
+        name: 'MunSoc',
+        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
+        ],
+      },
+      {
+        name: 'CNC',
+        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
+        ],
+      },
+      {
+        name: 'Enactus',
+        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
+        ],
+      },
+      {
+        name: 'Khachaak',
+        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
         ],
       },
     ],

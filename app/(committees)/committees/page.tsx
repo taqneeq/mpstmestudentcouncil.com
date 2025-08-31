@@ -47,8 +47,6 @@ export default function CommitteesPage() {
                                                     alt={`${category.name} Category`}
                                                     layout="fill"
                                                     objectFit="contain"
-                                                    // Add an error handler for missing images
-                                                    onError={(e) => { e.currentTarget.src = '/images/council-logo.png'; }}
                                                 />
                                             </div>
                                             <h3 className="text-2xl font-bold mb-2 capitalize">
