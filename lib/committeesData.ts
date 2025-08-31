@@ -360,7 +360,7 @@ export const committeesData: Category[] = [
       {
         name: "ACM",
         vision:
-          "ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.",
+          "ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications. <br><br> <a style=\"color: #3b82f6; font-weight: 500; font-size: 16px; text-decoration: none; border-bottom: 1px solid #3b82f6; transition: all 0.3s ease;\" href=\"https://mpstmeacm.com\" onmouseover=\"this.style.opacity='0.8'\" onmouseout=\"this.style.opacity='1'\">Visit Website ↗</a>",
         flagshipEvents: [
           {
             name: "Semicolon",

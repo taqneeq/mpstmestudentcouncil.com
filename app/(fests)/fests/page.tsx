@@ -47,7 +47,7 @@ export default function CategoryPage() {
                   key={committee.name}
                   href={
                     categoryParam === "fests"
-                      ? `/fests`
+                      ? `/fests/${committeeSlug}`
                       : `/committees/${categoryParam}/${committeeSlug}`
                   }
                   className="group flex flex-col items-center p-6 bg-zinc-900 rounded-lg border border-zinc-800 hover:bg-zinc-800 transition-all duration-300 ease-in-out"

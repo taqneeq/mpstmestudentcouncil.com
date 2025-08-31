@@ -67,8 +67,7 @@ export default function CommitteePage({
 
           <section className="w-full ">
             <h2 className="text-3xl font-semibold mb-4">Our Vision.</h2>
-            <p className="text-gray-300 leading-relaxed">
-              {committeeData.vision}
+            <p dangerouslySetInnerHTML={{ __html: committeeData.vision }} className="text-gray-300 leading-relaxed">
             </p>
           </section>
 
