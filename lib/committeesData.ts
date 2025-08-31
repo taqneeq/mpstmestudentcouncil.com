@@ -51,11 +51,11 @@ export const committeesData: Category[] = [
           { name: 'Traditional Day', description: 'A celebration of cultural heritage where students dress in elegant ethnic attire, with photobooths and curated stalls.' },
         ],
         team: [
-          { name: 'Daneeka Roy', imageUrl: '/images/council-logo.png' },
-          { name: 'Darsh Dadhich', imageUrl: '/images/council-logo.png' },
-          { name: 'Niyati Reddy', imageUrl: '/images/council-logo.png' },
-          { name: 'Prisha Mistry', imageUrl: '/images/council-logo.png' },
-          { name: 'Vihan Joshi', imageUrl: '/images/council-logo.png' },
+          { name: 'Daneeka Roy', imageUrl: '/images/committees/council/cultural/core/daneeka.png' },
+          { name: 'Darsh Dadhich', imageUrl: '/images/committees/council/cultural/core/darsh.png' },
+          { name: 'Niyati Reddy', imageUrl: '/images/committees/council/cultural/core/niyati.png' },
+          { name: 'Prisha Mistry', imageUrl: '/images/committees/council/cultural/core/prisha.png' },
+          { name: 'Vihan Joshi', imageUrl: '/images/committees/council/cultural/core/vihan.png' },
         ]
       },
       {
@@ -66,6 +66,13 @@ export const committeesData: Category[] = [
           { name: 'Blind Date with a Book', description: 'An annual event where books are wrapped anonymously, encouraging students to discover new genres based on curiosity alone.' },
           { name: 'Chapter One', description: 'A platform that honors and launches original books written by student authors, featuring reading sessions and discussions.' },
         ],
+        team: [
+          { name: 'Aanya Bhaduri', imageUrl: '/images/committees/council/editorial/core/aanya.png' },
+          { name: 'Josh Dave', imageUrl: '/images/committees/council/editorial/core/josh.png' },
+          { name: 'Laksh Agarwal', imageUrl: '/images/committees/council/editorial/core/laksh.png' },
+          { name: 'Rushil Kubavat', imageUrl: '/images/committees/council/editorial/core/rushil.png' },
+          { name: 'Tisha Kawad', imageUrl: '/images/committees/council/editorial/core/tisha.png' },
+        ]
       },
       {
         name: 'Outreach',
@@ -75,11 +82,11 @@ export const committeesData: Category[] = [
           { name: 'Prize Distribution Ceremony', description: 'An event to acknowledge the efforts of students who actively contributed to events throughout the year with awards.' },
         ],
         team: [
-          { name: 'Siddhi Gandhi', imageUrl: '/images/council-logo.png' },
-          { name: 'Shashank Doshi', imageUrl: '/images/council-logo.png' },
-          { name: 'Ritwik Sharma', imageUrl: '/images/council-logo.png' },
-          { name: 'Madhav Sahi', imageUrl: '/images/council-logo.png' },
-          { name: 'Jal Mehta', imageUrl: '/images/council-logo.png' },
+          { name: 'Siddhi Gandhi', imageUrl: '/images/committees/council/outreach/core/siddhi.png' },
+          { name: 'Shashank Doshi', imageUrl: '/images/committees/council/outreach/core/shashank.png' },
+          { name: 'Ritwik Sharma', imageUrl: '/images/committees/council/outreach/core/ritwik.png' },
+          { name: 'Madhav Sahi', imageUrl: '/images/committees/council/outreach/core/madhav.png' },
+          { name: 'Jal Mehta', imageUrl: '/images/committees/council/outreach/core/jal.png' },
         ]
       },
       {
@@ -107,6 +114,13 @@ export const committeesData: Category[] = [
           { name: 'Bombay Research Summit', description: 'A flagship three-day event dedicated to fostering research and innovation, featuring the Innovation Arena for pitches to experts.' },
           { name: 'Taqneeq', description: 'The official technical festival of MPSTME, a vibrant celebration of innovation, creativity, and technical excellence.' },
           { name: 'Internship Fair', description: 'A campus-wide initiative connecting students with valuable industry experience through internships with over 20+ companies.' },
+        ],
+        team: [
+          { name: 'Anubhi Jain', imageUrl: '/images/committees/council/trc/core/anubhi.png' },
+          { name: 'Juhi Purohit', imageUrl: '/images/committees/council/trc/core/juhi.png' },
+          { name: 'Naisha Modi', imageUrl: '/images/committees/council/trc/core/naisha.png' },
+          { name: 'Neev Agarwal', imageUrl: '/images/committees/council/trc/core/neev.png' },
+          { name: 'Soham Sawant', imageUrl: '/images/committees/council/trc/core/soham.png' },
         ]
       }
     ]
