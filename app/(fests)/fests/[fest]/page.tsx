@@ -34,7 +34,7 @@ export default function CommitteePage({ params }: { params: { fest: string } }) 
   return (
     <>
       <Header />
-      <main className="bg-black text-white min-h-screen px-4 sm:px-8 py-16">
+      <main className=" text-white min-h-screen px-4 sm:px-8 py-16">
         <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-12">
           
           <h1 className="text-5xl font-bold tracking-tight">{committeeData.name}</h1>

@@ -24,7 +24,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
   }
 
   return (
-    <section className="bg-black text-white">
+    <section className=" text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 

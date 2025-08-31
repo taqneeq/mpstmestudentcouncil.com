@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-3">
                 <div className="flex items-center space-x-4">
-                <Image src={mukeshpatel} alt="Council Logo" width={350} />
+                <Image src={mukeshpatel} alt="Council Logo" width={350} className=" bg-zinc-100 p-3 rounded" />
                 <Image src={logo} alt="Council Logo" width={60} height={60} />
                 </div>
               </div>

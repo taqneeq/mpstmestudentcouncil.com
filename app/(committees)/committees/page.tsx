@@ -24,7 +24,7 @@ const categories = categoryData.map(category => ({
 
 export default function CommitteesPage() {
     return (
-        <section className="relative bg-black text-white">
+        <section className="relative  text-white">
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
                 <div className="pt-32 pb-12 md:pt-40 md:pb-20">
                     

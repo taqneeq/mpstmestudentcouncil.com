@@ -22,7 +22,7 @@
 }
 
 .team-member-card {
-  @apply relative rounded-lg overflow-hidden cursor-pointer aspect-square;
+  @apply relative rounded overflow-hidden cursor-pointer aspect-square;
 }
 
 .team-member-card img {
