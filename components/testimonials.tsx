@@ -1,46 +1,56 @@
 import Image from 'next/image'
 
-import soham from '@/public/images/council-logo.png'
-import tanya from '@/public/images/council-logo.png'
-import nidhi from '@/public/images/council-logo.png'
-import parth from '@/public/images/council-logo.png'
-import renesh from '@/public/images/council-logo.png'
+import photo from '@/public/images/council-logo.png'
 
 const teamMembers = [
   {
-    name: "Tanya Kulkarni",
+    name: "Vansh Chheda",
     title: "General Secretary",
-    quote: "— Leading with Vision, Inspiring with Action.",
-    image: tanya,
-    linkedin: "https://www.linkedin.com/in/tanya-kulkarni-b5501b204",
+    quote: "— Steering the team with vision, unity, and purpose.",
+    image: photo,
+    linkedin: "https://www.linkedin.com/in/vansh-chheda-560957245/",
   },
   {
-    name: "Nidhi Keni",
-    title: "Lady Representative",
-    quote: "— Built on dreams, fueled by determination, crowned with victory",
-    image: nidhi,
-    linkedin: "https://www.linkedin.com/in/nidhikeni",
+    name: "Aryan Bondgulwar",
+    title: "Joint General Secretary - Technical",
+    quote: "— Engineering innovation, one idea at a time.",
+    image: photo,
+    linkedin: "https://www.linkedin.com/in/aryan-bondgulwar/",
   },
   {
-    name: "Renesh Gandhi",
-    title: "Logistics Joint General Secretary",
-    quote: "— Together, we'll shape an inspiring future, fostering growth and positive change.",
-    image: renesh,
-    linkedin: "https://www.linkedin.com/in/renesh-gandhi-27b4b3207",
+    name: "Tushita Shetty",
+    title: "Joint General Secretary - Editorial & Culture",
+    quote: "— Amplifying voices, celebrating stories, shaping culture.",
+    image: photo,
+    linkedin: "https://www.linkedin.com/in/tushita-shetty/",
   },
   {
-    name: "Parth Tendulkar",
-    title: "Editorial & PR Joint General Secretary",
-    quote: "— The future is bright, filled with innovation and unity.",
-    image: parth,
-    linkedin: "https://www.linkedin.com/in/parth-t-8a0083164",
+    name: "Shreshtha Bindal",
+    title: "Joint General Secretary - Contingent Leader",
+    quote: "— Leading with spirit, competing with pride.",
+    image: photo,
+    linkedin: "https://www.linkedin.com/in/shreshthabindal/",
   },
   {
-    name: "Soham Misra",
-    title: "Technical Joint General Secretary",
-    quote: "— Crafting a lasting legacy, not just a momentary impact",
-    image: soham,
-    linkedin: "https://www.linkedin.com/in/soham-misra13",
+    name: "Aalia Dandawala",
+    title: "Joint General Secretary - Sustainable Development Goals",
+    quote: "— Driving impact with purpose and sustainability.",
+    image: photo,
+    linkedin: "https://www.linkedin.com/in/aaliafatema/",
+  },
+  {
+    name: "Yuvanesh Gopinath",
+    title: "Joint General Secretary - Alumni",
+    quote: "— Bridging legacies, building futures.",
+    image: photo,
+    linkedin: "https://www.linkedin.com/in/yuvanesh-gopinath/",
+  },
+  {
+    name: "Naman Bhatia",
+    title: "Joint General Secretary - Sports",
+    quote: "— Fueling passion, fostering team spirit.",
+    image: photo,
+    linkedin: "https://jkartik.in/",
   },
 ];
 

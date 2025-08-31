@@ -352,6 +352,24 @@ export const committeesData: Category[] = [
           { name: "Vaishnav Menon", imageUrl: "/images/council-logo.png" },
         ],
       },
+      {
+        name: "Conquer - Sports Fest",
+        vision:
+          "Conquer is a sports fest.",
+        flagshipEvents: [{ name: "Conquer", description: "Sports Fest" }],
+      },
+      {
+        name: "Bizneeti",
+        vision:
+          "Bizneeti is a CQ fest",
+        flagshipEvents: [{ name: "Bizneeti", description: "CQ Fest" }],
+      },
+      {
+        name: "TEP - The Editorial Project",
+        vision:
+          "TEP is a Editorial Board Project",
+        flagshipEvents: [{ name: "The Editorial Project", description: "EDB Fest" }],
+      },
     ],
   },
   {
