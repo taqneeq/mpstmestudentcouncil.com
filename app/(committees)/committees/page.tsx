@@ -6,14 +6,21 @@ export const metadata = {
     description: 'Explore the diverse range of student committees at MPSTME.',
 };
 
-const categories = [
-    { name: 'Fest', description: 'Experience the vibrant cultural and technical festivals on campus.' },
+const categoryData = [
+    { name: 'Fests', description: 'Experience the vibrant cultural and technical festivals on campus.' },
     { name: 'Council', description: 'Meet the student leaders driving university initiatives and governance.' },
     { name: 'Technical', description: 'Dive into the world of technology, from coding to robotics and beyond.' },
     { name: 'Management', description: 'Explore the domains of finance, entrepreneurship, and business strategy.' },
-    { name: 'Social', description: 'Join hands to make a positive impact on the community and society.' },
     { name: 'Others', description: 'Discover unique committees that cater to a variety of other interests.' },
 ];
+
+const categories = categoryData.map(category => ({
+    ...category,
+    image: category.name === 'Fests'
+        ? '/images/fests/logo.png' // hardcoded image for 'Fests'
+        : `/images/committees/${category.name}/logo.png`,
+}));
+
 
 export default function CommitteesPage() {
     return (
@@ -30,12 +37,14 @@ export default function CommitteesPage() {
                         </p>
                     </div>
 
-                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                        {categories.map((category, index) => {
+                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+                        {categories
+                        // .filter((category) => {return !(category.name.toLowerCase() === "fests")})
+                        .map((category, index) => {
                             const categorySlug = category.name.toLowerCase();
                             // Dynamically create the link and image source
-                            const linkHref = categorySlug === 'fest' ? '/fests' : `/committees/${categorySlug}`;
-                            const imageSrc = `/images/committees/${categorySlug}/logo.png`;
+                            const linkHref = categorySlug === 'fests' ? '/fests' : `/committees/${categorySlug}`;
+                            const imageSrc = category.image;
 
                             return (
                                 <div key={category.name} data-aos="fade-up" data-aos-delay={`${100 * (index + 1)}`}>

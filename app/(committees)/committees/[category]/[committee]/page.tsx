@@ -8,10 +8,11 @@ import Footer from '@/components/ui/footer';
 export async function generateStaticParams() {
   const paths = [];
   for (const category of committeesData) {
+    if (category.name.toLowerCase() === 'fests') continue;
     for (const committee of category.committees) {
       paths.push({
         category: category.name.toLowerCase(),
-        committee: committee.name.toLowerCase(),
+        committee: committee.name.toLowerCase().split(" ")[0],
       });
     }
   }
@@ -19,12 +20,16 @@ export async function generateStaticParams() {
 }
 
 export default function CommitteePage({ params }: { params: { category: string; committee: string } }) {
+
   
   const categoryParam = params.category.toLowerCase();
   const committeeParam = params.committee.toLowerCase();
-
+  
+  if (categoryParam === 'fests') {
+    notFound();
+  }
   const categoryData = committeesData.find(c => c.name.toLowerCase() === categoryParam);
-  const committeeData = categoryData?.committees.find(com => com.name.toLowerCase() === committeeParam);
+  let committeeData = categoryData?.committees.find(com => com.name.toLowerCase().startsWith(committeeParam));
 
   if (!categoryData || !committeeData) {
     notFound();

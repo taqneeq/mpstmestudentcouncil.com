@@ -23,7 +23,7 @@ export default function CommitteePage({ params }: { params: { fest: string } }) 
   const committeeParam = params.fest.toLowerCase();
 
   const categoryData = committeesData.find(c => c.name.toLowerCase() === "fests");
-  const committeeData = categoryData?.committees.find(com => com.name.toLowerCase() === committeeParam);
+  const committeeData = categoryData?.committees.find(com => com.name.toLowerCase().startsWith(committeeParam));
 
   if (!categoryData || !committeeData) {
     notFound();

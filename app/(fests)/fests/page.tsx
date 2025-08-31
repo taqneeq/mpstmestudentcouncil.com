@@ -31,13 +31,13 @@ export default function CategoryPage() {
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {categoryData.committees.map((committee) => {
-              const committeeSlug = committee.name.toLowerCase().replace(/\s+/g, '');
+              const committeeSlug = committee.name.toLowerCase().split(" ")[0];
               const logoSrc = `/images/fests/${committeeSlug}/logo.png`;
               
               return (
                 <Link
                   key={committee.name}
-                  href={`/committees/${categoryParam}/${committeeSlug}`}
+                  href={`/fests/${committeeSlug}`}
                   className="group flex flex-col items-center p-6 bg-zinc-900 rounded-lg border border-zinc-800 hover:bg-zinc-800 transition-all duration-300 ease-in-out"
                   data-aos="fade-up"
                   data-aos-delay="100"

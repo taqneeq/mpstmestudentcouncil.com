@@ -15,6 +15,10 @@ export default function CategoryPage({ params }: { params: { category: string } 
   const categoryParam = params.category.toLowerCase();
   const categoryData = committeesData.find(c => c.name.toLowerCase() === categoryParam);
 
+  if (categoryParam === 'fests') {
+    notFound();
+  }
+
   if (!categoryData) {
     notFound();
   }
@@ -32,13 +36,16 @@ export default function CategoryPage({ params }: { params: { category: string } 
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {categoryData.committees.map((committee) => {
-              const committeeSlug = committee.name.toLowerCase().replace(/\s+/g, '');
+              const committeeSlug = committee.name.toLowerCase().split(" ")[0];
               const logoSrc = `/images/committees/${categoryParam}/${committeeSlug}/logo.png`;
               
               return (
                 <Link
                   key={committee.name}
-                  href={`/committees/${categoryParam}/${committeeSlug}`}
+                  href={categoryParam === 'fests' 
+                    ? `/fests` 
+                    : `/committees/${categoryParam}/${committeeSlug}`
+                  }
                   className="group flex flex-col items-center p-6 bg-zinc-900 rounded-lg border border-zinc-800 hover:bg-zinc-800 transition-all duration-300 ease-in-out"
                   data-aos="fade-up"
                   data-aos-delay="100"

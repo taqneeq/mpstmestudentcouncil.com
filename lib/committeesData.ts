@@ -129,6 +129,36 @@ export const committeesData: Category[] = [
           { name: 'Sarah Noorani', imageUrl: '/team/sc-logo.png' },
         ],
       },
+      {
+        name: 'Taqneeq',
+        vision: 'Sattva is the cultural heart of MPSTME, celebrating creativity, talent, and the vibrant spirit of our student community through a dazzling array of events.',
+        flagshipEvents: [
+          { name: 'Cultural Parade', description: 'A vibrant showcase of traditions from across the country.' },
+          { name: 'Battle of the Bands', description: 'Where musical talents clash for ultimate glory.' },
+        ],
+        team: [
+          { name: 'Adhya Khandelwal', imageUrl: '/team/sc-logo.png' },
+          { name: 'Soham Surve', imageUrl: '/team/soham.jpg' },
+          { name: 'Manan Siroya', imageUrl: '/team/manan.jpg' },
+          { name: 'Shubham Tanna', imageUrl: '/team/shubham.jpg' },
+          { name: 'Sarah Noorani', imageUrl: '/team/sc-logo.png' },
+        ],
+      },
+      {
+        name: 'Social Conclave',
+        vision: 'Sattva is the cultural heart of MPSTME, celebrating creativity, talent, and the vibrant spirit of our student community through a dazzling array of events.',
+        flagshipEvents: [
+          { name: 'Cultural Parade', description: 'A vibrant showcase of traditions from across the country.' },
+          { name: 'Battle of the Bands', description: 'Where musical talents clash for ultimate glory.' },
+        ],
+        team: [
+          { name: 'Adhya Khandelwal', imageUrl: '/team/sc-logo.png' },
+          { name: 'Soham Surve', imageUrl: '/team/soham.jpg' },
+          { name: 'Manan Siroya', imageUrl: '/team/manan.jpg' },
+          { name: 'Shubham Tanna', imageUrl: '/team/shubham.jpg' },
+          { name: 'Sarah Noorani', imageUrl: '/team/sc-logo.png' },
+        ],
+      },
     ],
   },
   {
