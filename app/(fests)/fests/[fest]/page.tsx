@@ -68,7 +68,7 @@ export default function CommitteePage({ params }: { params: { fest: string } }) 
           {(categoryData.name.toLowerCase() === 'council' || categoryData.name.toLowerCase() === 'fests') && committeeData.team && (
             <section className="w-full">
               <h2 className="text-3xl font-semibold mb-8">Our Team.</h2>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6">
                 {committeeData.team.map((member) => (
                   <div key={member.name} className="team-member-card">
                     <Image

@@ -18,7 +18,7 @@ const categories = categoryData.map(category => ({
     ...category,
     image: category.name === 'Fests'
         ? '/images/fests/logo.png' // hardcoded image for 'Fests'
-        : `/images/committees/${category.name}/logo.png`,
+        : `/images/committees/${category.name.toLowerCase()}/logo.png`,
 }));
 
 

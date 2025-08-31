@@ -35,11 +35,11 @@ export const committeesData: Category[] = [
           { name: 'LinkedIn Workshop', description: 'An official workshop in collaboration with LinkedIn India on the importance of professional networking.' },
         ],
         team: [
-          { name: 'Piyush Agarwal', imageUrl: '/path/to/image.png' },
-          { name: 'Anshika Pattnaik', imageUrl: '/path/to/image.png' },
-          { name: 'Poorvi Malhotra', imageUrl: '/path/to/image.png' },
-          { name: 'Pramey Shah', imageUrl: '/path/to/image.png' },
-          { name: 'Shirin Sharma', imageUrl: '/path/to/image.png' },
+          { name: 'Piyush Agarwal', imageUrl: '/images/committees/council/colloquium/core/piyush.png' },
+          { name: 'Anshika Pattnaik', imageUrl: '/images/committees/council/colloquium/core/anshika.png' },
+          { name: 'Poorvi Malhotra', imageUrl: '/images/committees/council/colloquium/core/poorvi.png' },
+          { name: 'Pramey Shah', imageUrl: '/images/committees/council/colloquium/core/pramey.png' },
+          { name: 'Shirin Sharma', imageUrl: '/images/committees/council/colloquium/core/shirin.png' },
         ]
       },
       {
@@ -51,11 +51,11 @@ export const committeesData: Category[] = [
           { name: 'Traditional Day', description: 'A celebration of cultural heritage where students dress in elegant ethnic attire, with photobooths and curated stalls.' },
         ],
         team: [
-          { name: 'Daneeka Roy', imageUrl: '/path/to/image.png' },
-          { name: 'Darsh Dadhich', imageUrl: '/path/to/image.png' },
-          { name: 'Niyati Reddy', imageUrl: '/path/to/image.png' },
-          { name: 'Prisha Mistry', imageUrl: '/path/to/image.png' },
-          { name: 'Vihan Joshi', imageUrl: '/path/to/image.png' },
+          { name: 'Daneeka Roy', imageUrl: '/images/council-logo.png' },
+          { name: 'Darsh Dadhich', imageUrl: '/images/council-logo.png' },
+          { name: 'Niyati Reddy', imageUrl: '/images/council-logo.png' },
+          { name: 'Prisha Mistry', imageUrl: '/images/council-logo.png' },
+          { name: 'Vihan Joshi', imageUrl: '/images/council-logo.png' },
         ]
       },
       {
@@ -65,7 +65,7 @@ export const committeesData: Category[] = [
           { name: 'The Editorial Project (TEP)', description: 'A flagship event celebrating creative expression with sub-events like Comic Con, Open Mic Night, a Literary Seminar, and an Artist Night.' },
           { name: 'Blind Date with a Book', description: 'An annual event where books are wrapped anonymously, encouraging students to discover new genres based on curiosity alone.' },
           { name: 'Chapter One', description: 'A platform that honors and launches original books written by student authors, featuring reading sessions and discussions.' },
-        ]
+        ],
       },
       {
         name: 'Outreach',
@@ -75,11 +75,11 @@ export const committeesData: Category[] = [
           { name: 'Prize Distribution Ceremony', description: 'An event to acknowledge the efforts of students who actively contributed to events throughout the year with awards.' },
         ],
         team: [
-          { name: 'Siddhi Gandhi', imageUrl: '/path/to/image.png' },
-          { name: 'Shashank Doshi', imageUrl: '/path/to/image.png' },
-          { name: 'Ritwik Sharma', imageUrl: '/path/to/image.png' },
-          { name: 'Madhav Sahi', imageUrl: '/path/to/image.png' },
-          { name: 'Jal Mehta', imageUrl: '/path/to/image.png' },
+          { name: 'Siddhi Gandhi', imageUrl: '/images/council-logo.png' },
+          { name: 'Shashank Doshi', imageUrl: '/images/council-logo.png' },
+          { name: 'Ritwik Sharma', imageUrl: '/images/council-logo.png' },
+          { name: 'Madhav Sahi', imageUrl: '/images/council-logo.png' },
+          { name: 'Jal Mehta', imageUrl: '/images/council-logo.png' },
         ]
       },
       {
@@ -122,41 +122,46 @@ export const committeesData: Category[] = [
           { name: 'Battle of the Bands', description: 'Where musical talents clash for ultimate glory.' },
         ],
         team: [
-          { name: 'Adhya Khandelwal', imageUrl: '/team/sc-logo.png' },
-          { name: 'Soham Surve', imageUrl: '/team/soham.jpg' },
-          { name: 'Manan Siroya', imageUrl: '/team/manan.jpg' },
-          { name: 'Shubham Tanna', imageUrl: '/team/shubham.jpg' },
-          { name: 'Sarah Noorani', imageUrl: '/team/sc-logo.png' },
+          { name: 'Vansh Cheddha', imageUrl: '/images/council-logo.png' },
+          { name: 'Vansh Dhoka', imageUrl: '/images/council-logo.png' },
+          { name: 'Tushita Shetty', imageUrl: '/images/council-logo.png' },
+          { name: 'Jimil Shah', imageUrl: '/images/council-logo.png' },
+          { name: 'Bhargiv Potpose', imageUrl: '/images/council-logo.png' },
+          { name: 'Priyank Shah', imageUrl: '/images/council-logo.png' },
         ],
       },
       {
         name: 'Taqneeq',
-        vision: 'Sattva is the cultural heart of MPSTME, celebrating creativity, talent, and the vibrant spirit of our student community through a dazzling array of events.',
+        vision: 'At Taqneeq, we envision a dynamic platform where innovation meets inspiration — uniting the brightest minds in technology, engineering, and design. Our mission is to ignite curiosity, foster interdisciplinary collaboration, and empower students to solve real-world challenges through creativity and technical excellence.',
         flagshipEvents: [
-          { name: 'Cultural Parade', description: 'A vibrant showcase of traditions from across the country.' },
-          { name: 'Battle of the Bands', description: 'Where musical talents clash for ultimate glory.' },
+          { name: 'Taqneeq 18.0', description: 'A vibrant showcase of technical projects by the students.' },
         ],
         team: [
-          { name: 'Adhya Khandelwal', imageUrl: '/team/sc-logo.png' },
-          { name: 'Soham Surve', imageUrl: '/team/soham.jpg' },
-          { name: 'Manan Siroya', imageUrl: '/team/manan.jpg' },
-          { name: 'Shubham Tanna', imageUrl: '/team/shubham.jpg' },
-          { name: 'Sarah Noorani', imageUrl: '/team/sc-logo.png' },
+          { name: 'Jash Sompura', imageUrl: '/images/council-logo.png' },
+          { name: 'Aryan Bondgulwar', imageUrl: '/images/council-logo.png' },
+          { name: 'Vidit Agrawal', imageUrl: '/images/council-logo.png' },
+          { name: 'Juhi Purohit', imageUrl: '/images/council-logo.png' },
+          { name: 'Jay Rakholia', imageUrl: '/images/council-logo.png' },
+          { name: 'Siddhi Gandhi', imageUrl: '/images/council-logo.png' },
+          { name: 'Vansh Chedda', imageUrl: '/images/council-logo.png' },
+          { name: 'Charvi Jain', imageUrl: '/images/council-logo.png' },
         ],
       },
       {
         name: 'Social Conclave',
         vision: 'Sattva is the cultural heart of MPSTME, celebrating creativity, talent, and the vibrant spirit of our student community through a dazzling array of events.',
         flagshipEvents: [
-          { name: 'Cultural Parade', description: 'A vibrant showcase of traditions from across the country.' },
-          { name: 'Battle of the Bands', description: 'Where musical talents clash for ultimate glory.' },
+          { name: 'Conclave', description: 'Conclave 26' },
         ],
         team: [
-          { name: 'Adhya Khandelwal', imageUrl: '/team/sc-logo.png' },
-          { name: 'Soham Surve', imageUrl: '/team/soham.jpg' },
-          { name: 'Manan Siroya', imageUrl: '/team/manan.jpg' },
-          { name: 'Shubham Tanna', imageUrl: '/team/shubham.jpg' },
-          { name: 'Sarah Noorani', imageUrl: '/team/sc-logo.png' },
+          { name: 'Kaunteya Goyal', imageUrl: '/images/council-logo.png' },
+          { name: 'Aalia Dandawala', imageUrl: '/images/council-logo.png' },
+          { name: 'Sahil Madhani', imageUrl: '/images/council-logo.png' },
+          { name: 'Aditya Vaishnav', imageUrl: '/images/council-logo.png' },
+          { name: 'Hirnay Prasad', imageUrl: '/images/council-logo.png' },
+          { name: 'Khushi Chowdhary', imageUrl: '/images/council-logo.png' },
+          { name: 'Varun Pitale', imageUrl: '/images/council-logo.png' },
+          { name: 'Vaishnav Menon', imageUrl: '/images/council-logo.png' },
         ],
       },
     ],
@@ -212,7 +217,7 @@ export const committeesData: Category[] = [
         name: 'IETE-SF',
         vision: 'To foster a dynamic, inclusive, and innovation-driven ecosystem that empowers students to become future-ready technocrats, researchers, and leaders, bridging the gap between theory and real-world application.',
         flagshipEvents: [
-          { name: 'U’LECTRO', description: 'A cutting-edge science and technology exhibition where students showcase innovative projects across four core domains.' },
+          { name: 'ULECTRO', description: 'A cutting-edge science and technology exhibition where students showcase innovative projects across four core domains.' },
           { name: 'ACE Hackathon', description: 'An exhilarating two-day event celebrating innovation with over 300+ participants and groundbreaking ideas.' },
           { name: 'ADAPPT', description: 'An annual ideathon designed to bring together innovative minds to solve real-world challenges across four key domains.' },
         ],
@@ -292,7 +297,7 @@ export const committeesData: Category[] = [
       },
       {
         name: 'Findrome',
-        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        vision: 'Findrome - \'Forward and Onward\' is the finance departmental cell of NMIMS dedicated to fostering financial literacy and expertise among students empowering them with practical insights, industry exposure, and analytical skills that will shape tomorrow\'s finance leaders. Through interactive learning experiences and industry connections, we strive to transform complex financial concepts into accessible knowledge, preparing our members to excel in the dynamic world of finance.',
         flagshipEvents: [
           { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
           { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
@@ -301,7 +306,7 @@ export const committeesData: Category[] = [
       },
       {
         name: 'IEC',
-        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        vision: 'The Innovation and Entrepreneurship Cell (IEC) aims to inspire and support students in exploring the world of startups, business strategy, and problem-solving. Through hands-on events, industry exposure, and peer-driven learning, we strive to create a space where aspiring entrepreneurs can develop their skills, gain confidence, and take the first steps toward building impactful ventures.',
         flagshipEvents: [
           { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
           { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
@@ -314,8 +319,8 @@ export const committeesData: Category[] = [
     name: 'Others',
     committees: [
       {
-        name: 'MunSoc',
-        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        name: 'MUNSociety',
+        vision: 'We envision our team to be the forerunners in creating positive change through debate and diplomacy. We strive to nurture a community of forward-thinking individuals, the kind that can potentially change our future for the better.',
         flagshipEvents: [
           { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
           { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
@@ -324,7 +329,7 @@ export const committeesData: Category[] = [
       },
       {
         name: 'CNC',
-        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        vision: 'At the Code N Choreography (CNC) Crew, we strive to create a space where dance meets purpose; a platform for students to express, perform, and grow. Our mission goes beyond the stage, empowering young artists to break boundaries, blend creativity with discipline, and build real-world skills in teamwork, leadership, and creative production. We aim to cultivate a culture of excellence and represent our college on the grandest stages of performing arts leaving a lasting impact through every performance.',
         flagshipEvents: [
           { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
           { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
@@ -333,7 +338,7 @@ export const committeesData: Category[] = [
       },
       {
         name: 'Enactus',
-        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        vision: 'We envision a world where students lead social and entrepreneurial action, turning bold ideas into sustainable enterprises that address global challenges and empower communities. Enactus is a global non‑profit organization, active in nearly 100 countries and engaging over 40,000 student social entrepreneurs annually through its recent merger with the Resolution Project. Rooted in leadership since 1975, Enactus has become the world’s largest experiential learning platform for youth-driven social innovation.',
         flagshipEvents: [
           { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
           { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
@@ -342,7 +347,25 @@ export const committeesData: Category[] = [
       },
       {
         name: 'Khachaak',
-        vision: 'ACM—the thriving hub of innovators, thinkers, and creators—offers an environment that nurtures growth, exploration, and innovation, bridging the gap between academic knowledge and real-world tech applications.',
+        vision: 'To build a creative community that goes beyond college corridors, where students don’t just capture moments, but learn to tell stories that matter. Khachaak aims to be a launchpad for young creators, equipping them with real-world skills, industry exposure, and opportunities that take them from covering campus events to creating impact across cities, cultures, and countries.',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
+        ],
+      },
+      {
+        name: 'Inspire',
+        vision: 'To ignite a passion for learning by creating a vibrant community where curiosity thrives, creativity is celebrated, and education becomes a journey of discovery. Insℼire MPSTME envisions a future where students confidently apply critical thinking, explore new ideas fearlessly, and lead with knowledge, innovation, and purpose',
+        flagshipEvents: [
+          { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
+          { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
+          { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
+        ],
+      },
+      {
+        name: 'Alumcom',
+        vision: 'Our vision is to serve as a dynamic and enduring bridge between MPSTME students and alumni, cultivating a thriving community based on meaningful engagement, mentorship, and collaboration. We aim to establish a supportive ecosystem that nurtures personal and professional growth, facilitates shared learning, and encourages lifelong relationships. By fostering a network rooted in mutual respect and ambition, the committee empowers members, including both current students and alumni, to fulfil their potential, contribute to their alma mater, and collectively advance the legacy and excellence of MPSTME.',
         flagshipEvents: [
           { name: 'Semicolon', description: 'An annual introductory event for first-year students to explore the committee’s departments and initiatives.' },
           { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
