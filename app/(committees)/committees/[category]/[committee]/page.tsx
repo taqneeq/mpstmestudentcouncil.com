@@ -65,6 +65,15 @@ export default function CommitteePage({
             priority
           />
 
+          {(categoryData.name.toLowerCase() === 'council') && (
+            <Image
+              src={`/images/committees/council/${committeeData.name.toLowerCase().split(" ")[0]}/group.png`}
+              alt={`${committeeData.name} Group`}
+              width={600}
+              height={250}
+            />
+          )}
+
           <section className="w-full ">
             <h2 className="text-3xl font-semibold mb-4">Our Vision.</h2>
             <p dangerouslySetInnerHTML={{ __html: committeeData.vision }} className="text-gray-300 leading-relaxed">
