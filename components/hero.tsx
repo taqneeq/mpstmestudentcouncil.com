@@ -35,24 +35,24 @@ export default function Hero() {
 
             {/* Buttons grid */}
             <div
-              className="max-w-md mx-auto grid grid-cols-3 gap-4"
+              className="max-w-md mx-auto grid grid-cols-3 gap-4 *:p-2 *:rounded"
               data-aos="fade-up"
               data-aos-delay="400"
             >
               <Link
-                className="flex items-center justify-center h-12  text-white bg-yellow-500 hover:bg-yellow-600 transition"
+                className="flex items-center justify-center   text-white bg-yellow-500 hover:bg-yellow-600 transition"
                 href="#council-committees"
               >
                 Council Committees
               </Link>
               <Link
-                className="flex items-center justify-center h-12  text-white bg-zinc-700 hover:bg-zinc-600 transition"
+                className="flex items-center justify-center  text-white bg-zinc-700 hover:bg-zinc-600 transition"
                 href="/committees/"
               >
                 All Committees
               </Link>
               <Link
-                className="flex items-center justify-center h-12  text-white bg-gray-700 hover:bg-gray-600 transition"
+                className="flex items-center justify-center   text-white bg-gray-700 hover:bg-gray-600 transition"
                 href="/fests"
               >
                 College Fests
