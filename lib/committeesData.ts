@@ -191,6 +191,13 @@ export const committeesData: Category[] = [
           { name: 'Programming For Everyone (PFE)', description: 'A beginner-friendly workshop series covering Python, C++, and web development essentials.' },
           { name: 'SEMICODE', description: 'A premier competitive coding event testing algorithmic problem-solving in a multi-round format.' },
         ],
+        team: [
+          { name: 'Kartik Jain', imageUrl: '/images/committees/technical/acm/sc/kartik.png' },
+          { name: 'Aarjav Jain', imageUrl: '/images/committees/technical/acm/sc/aarjav.png' },
+          { name: 'Nidhi Shah', imageUrl: '/images/committees/technical/acm/sc/nidhi.png' },
+          { name: 'Saanvi Kanodia', imageUrl: '/images/committees/technical/acm/sc/saanvi.png' },
+          { name: 'Varad Paranjape', imageUrl: '/images/committees/technical/acm/sc/varad.png' },
+        ]
       },
       {
         name: 'RAS',

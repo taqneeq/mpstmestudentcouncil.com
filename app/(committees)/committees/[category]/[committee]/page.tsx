@@ -76,7 +76,7 @@ export default function CommitteePage({ params }: { params: { category: string; 
           </section>
 
           {/* This logic is now safe because the check above guarantees categoryData exists */}
-          {(categoryData.name.toLowerCase() === 'council' || categoryData.name.toLowerCase() === 'fests') && committeeData.team && (
+          {committeeData.team && (
             <section className="w-full">
               <h2 className="text-3xl font-semibold mb-8">Our Team.</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
