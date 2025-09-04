@@ -27,7 +27,7 @@ export default function CategoryPage() {
   return (
     <section className="text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-12 pb-10 md:pt-24 md:pb-16">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1
               className="text-4xl md:text-5xl font-extrabold capitalize"
