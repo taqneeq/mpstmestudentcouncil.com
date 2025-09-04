@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Description } from '@headlessui/react/dist/components/description/description';
 
 export const metadata = {
     title: 'Committees',
@@ -11,6 +12,9 @@ const categoryData = [
     { name: 'Council', description: 'Meet the student leaders driving university initiatives and governance.' },
     { name: 'Technical', description: 'Dive into the world of technology, from coding to robotics and beyond.' },
     { name: 'Management', description: 'Explore the domains of finance, entrepreneurship, and business strategy.' },
+    { name: 'Editorial', description: 'Editorials'},
+    { name: 'FineArts', description: 'FineArts'},
+    { name: 'Social', description: 'Social'},
     { name: 'Others', description: 'Discover unique committees that cater to a variety of other interests.' },
 ];
 
@@ -26,7 +30,7 @@ export default function CommitteesPage() {
     return (
         <section className="relative  text-white">
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
-                <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+                <div className="pt-12 pb-10 md:pt-24 md:pb-16">
                     
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                         <h1 className="text-4xl md:text-5xl font-extrabold" data-aos="fade-up">

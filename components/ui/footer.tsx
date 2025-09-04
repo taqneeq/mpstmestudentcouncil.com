@@ -130,9 +130,9 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">
+            <div className="text-yellow-600 hover:text-gray-200 transition duration-150 ease-in-out">
               &copy;{" "}
-             MPSTME NMIMS Student Council
+             <Link href={"https://jkartik.in"} >Kartik Jain - jkartik.in</Link>
             </div>
           </div>
         </div>

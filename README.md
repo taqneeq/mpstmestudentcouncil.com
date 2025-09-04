@@ -1,22 +1,79 @@
-# Student Council Website 
-<img width="1624" alt="Screenshot 2023-12-16 at 12 00 29 PM" src="https://github.com/PrabirKalwani/Mpstme-Student-Council-Website/assets/70889682/a40725a9-40f3-4e6e-9f87-1e74b0abb0ad">
+# Student Council Website
 
-This Project was a website made for my colleges student council 
+This project is a website made for the college student council. It leverages Next.js and Tailwind CSS to deliver a modern, responsive design.
 
-## Deployment
+## Project Structure
 
-To run this project 
+- **app/**  
+  Contains the main application components, pages, and layouts.  
+  - **layout.tsx**: Main layout for the website.  
+  - **(calendar)/**: Calendar section with its own pages. See app/(calendar)/page.tsx.
+  - **(committees)/**: Committees section with nested pages and categories. See app/(committees)/layout.tsx.
+  - **(default)/**: Default pages.
+  - **(fests)/**: Fest pages and details.
+  - **css/**: Contains various CSS files such as morecards.css, changes.css, etc.
+  - **additional-styles/**: More CSS files for range slider, theme, toggle switch, and utility patterns.
 
+- **components/**  
+  Reusable UI components like banners, feature sections, modal videos, etc.
 
-```bash
-  git clone https://github.com/PrabirKalwani/Mpstme-Student-Council-Website.git
+- **lib/**  
+  Contains data and utility functions. For example, committee data is stored in lib/committeesData.ts.
+
+- **public/**  
+  Public assets such as images and global styles (e.g., overall.css).
+
+## Installation
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/taqneeq/mpstmestudentcouncil.com
+    ```
+
+2. **Install dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+3. **Run the development server:**
+
+    ```sh
+    npm run dev
+    ```
+
+## Production
+
+To build and deploy the project, run:
+
+```sh
+npm run build
+npm run start
 ```
 
-```bash
-  npm install
-```
+# Last Major Change Contributor:
 
-```bash
-  npm run dev 
-```
+## Kartik Jain
 
+- [jkartik.in](https://jkartik.in)
+
+- [GitHub](https://github.com/KartikJain14)
+
+- [LinkedIn](https://www.linkedin.com/in/KartikJain1410)
+
+## Parth Gupta
+
+- [parthg.me](https://parthg.me)
+
+- [GitHub](https://github.com/parthg2112)
+
+- [LinkedIn](https://www.linkedin.com/in/parthg21)
+
+## Yash Deshpande
+
+- [yashd.in](https://yashd.in)
+
+- [GitHub](https://github.com/yashd-dev)
+
+- [LinkedIn](https://www.linkedin.com/in/yashd-dev)
