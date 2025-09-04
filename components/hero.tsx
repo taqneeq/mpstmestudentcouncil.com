@@ -6,17 +6,8 @@ export default function Hero() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="relative pt-16 pb-10 md:pt-40 md:pb-16">
+        <div className="relative pt-12 pb-10 md:pt-24 md:pb-16">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            {/* Latest Events bubble */}
-            <Link
-              href="/calendar"
-              className="inline-block mb-6 px-4 py-1.5 rounded-full bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              Latest Events
-            </Link>
 
             {/* Heading */}
             <h1
@@ -34,13 +25,22 @@ export default function Hero() {
             </p>
 
             {/* Buttons grid */}
+            {/* Latest Events bubble */}
+            <Link
+              href="/calendar"
+              className="inline-block mb-6 mt-4 px-32 py-3 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Latest Events
+            </Link>
             <div
               className="max-w-md mx-auto grid grid-cols-3 gap-4 *:p-2 *:rounded"
               data-aos="fade-up"
               data-aos-delay="400"
             >
               <Link
-                className="flex items-center justify-center   text-white bg-yellow-500 hover:bg-yellow-600 transition"
+                className="flex items-center justify-center p-2 text-white bg-yellow-500 hover:bg-yellow-600 transition"
                 href="#council-committees"
               >
                 Council Committees

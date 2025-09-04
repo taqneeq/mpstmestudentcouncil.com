@@ -742,7 +742,7 @@ export const committeesData: Category[] = [
     ],
   },
   {
-    name: "Others",
+    name: "Editorial",
     committees: [
       {
         name: "MUNSociety",
@@ -766,6 +766,11 @@ export const committeesData: Category[] = [
           },
         ],
       },
+    ]
+  },
+  {
+    name: "FineArts",
+    committees: [
       {
         name: "CNC",
         vision:
@@ -785,28 +790,6 @@ export const committeesData: Category[] = [
             name: "Competitions",
             description:
               "CNC Crew has made its mark with dynamic performances at various competitions like Kshitij, Sattvaa, and SHOUTT. We continue to aim for bigger platforms, pushing our limits and representing our crew with unmatched energy.",
-          },
-        ],
-      },
-      {
-        name: "Enactus",
-        vision:
-          "We envision a world where students lead social and entrepreneurial action, turning bold ideas into sustainable enterprises that address global challenges and empower communities. Enactus is a global non‑profit organization, active in nearly 100 countries and engaging over 40,000 student social entrepreneurs annually through its recent merger with the Resolution Project. Rooted in leadership since 1975, Enactus has become the world’s largest experiential learning platform for youth-driven social innovation.",
-        flagshipEvents: [
-          {
-            name: "Abhirva",
-            description:
-              "Our flagship B-Plan competition that sees over 200 team entries, features esteemed guests from organizations like DRDO, and celebrates student innovation and entrepreneurship.",
-          },
-          {
-            name: "Parichay Showcase Event",
-            description:
-              "A glimpse into our journey of impact featuring our projects, beneficiaries, sustainable games, and creative takeaways. An event to explore stories of change and the people powering them.",
-          },
-          {
-            name: "Skill Development Workshops",
-            description:
-              "A series of initiatives for members, including annual hackathons, LinkedIn profile building workshops, and sustainability-focused challenges designed to enhance entrepreneurial thinking and professional growth.",
           },
         ],
       },
@@ -842,6 +825,38 @@ export const committeesData: Category[] = [
           },
         ],
       },
+    ]
+  },
+  {
+    name: "social",
+    committees: [
+      {
+        name: "Enactus",
+        vision:
+          "We envision a world where students lead social and entrepreneurial action, turning bold ideas into sustainable enterprises that address global challenges and empower communities. Enactus is a global non‑profit organization, active in nearly 100 countries and engaging over 40,000 student social entrepreneurs annually through its recent merger with the Resolution Project. Rooted in leadership since 1975, Enactus has become the world’s largest experiential learning platform for youth-driven social innovation.",
+        flagshipEvents: [
+          {
+            name: "Abhirva",
+            description:
+              "Our flagship B-Plan competition that sees over 200 team entries, features esteemed guests from organizations like DRDO, and celebrates student innovation and entrepreneurship.",
+          },
+          {
+            name: "Parichay Showcase Event",
+            description:
+              "A glimpse into our journey of impact featuring our projects, beneficiaries, sustainable games, and creative takeaways. An event to explore stories of change and the people powering them.",
+          },
+          {
+            name: "Skill Development Workshops",
+            description:
+              "A series of initiatives for members, including annual hackathons, LinkedIn profile building workshops, and sustainability-focused challenges designed to enhance entrepreneurial thinking and professional growth.",
+          },
+        ],
+      },
+    ]
+  },
+  {
+    name: "others",
+    committees: [
       {
         name: "Inspire",
         vision:
