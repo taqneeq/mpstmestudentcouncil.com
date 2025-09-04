@@ -420,6 +420,28 @@ export const committeesData: Category[] = [
         ],
       },
       {
+        "name": "GDGoC MPSTME",
+        "vision": "To create a vibrant and inclusive community where aspiring developers and innovators learn, collaborate, and grow. We bridge the gap between academic knowledge and real-world applications by providing hands-on experiences, workshops, and industry interactions that empower students to shape the digital future.",
+        "flagshipEvents": [
+          {
+            "name": "Fresher’s Foobar",
+            "description": "An introductory event welcoming first-year students to the community and its various technical and creative domains."
+          },
+          {
+            "name": "Decrypt",
+            "description": "A hands-on workshop designed to introduce students to the dynamic world of Cybersecurity."
+          },
+          {
+            "name": "LuminAIre",
+            "description": "The flagship AI/ML event featuring leading industry experts and thought leaders."
+          },
+          {
+            "name": "Hyphen",
+            "description": "An inclusive ideathon that encourages students from all backgrounds to collaborate on creative, impactful solutions."
+          }
+        ],
+      },
+      {
         name: "RAS",
         vision:
           "To be the leading student community at NMIMS that inspires innovation, nurtures technical excellence, and shapes future leaders in robotics and automation by fostering a culture of hands-on learning, collaboration, and industry relevance.",
