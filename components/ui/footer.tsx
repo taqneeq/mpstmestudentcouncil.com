@@ -14,9 +14,21 @@ export default function Footer() {
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-3">
-                <div className="flex items-center space-x-4">
-                <Image src={mukeshpatel} alt="Council Logo" width={350} className=" bg-zinc-100 p-3 rounded" />
-                <Image src={logo} alt="Council Logo" width={60} height={60} />
+                <div className="flex items-center space-x-3 sm:space-x-4">
+                  <Image 
+                    src={mukeshpatel} 
+                    alt="MPSTME Logo" 
+                    width={240} 
+                    height={80}
+                    className="bg-zinc-100 p-2 sm:p-3 rounded w-full max-w-[220px] sm:max-w-[280px] md:max-w-[320px] h-auto" 
+                  />
+                  <Image 
+                    src={logo} 
+                    alt="Council Logo" 
+                    width={80} 
+                    height={80}
+                    className="w-16 h-16 sm:w-22 sm:h-22 md:w-28 md:h-28 flex-shrink-0" 
+                  />
                 </div>
               </div>
               <div className="text-gray-400"> </div>

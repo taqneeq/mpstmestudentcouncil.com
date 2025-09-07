@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="relative pt-12 pb-10 md:pt-24 md:pb-16">
+        <div className="relative pt-32 pb-10 md:pt-24 md:pb-16">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
 
             {/* Heading */}

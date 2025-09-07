@@ -49,10 +49,10 @@ const Header: React.FC = () => {
             <MobileMenu />
             
             {/* Site branding */}
-            <div className="shrink-0 mr-4">
+            <div className="shrink-0 mr-4 md:mr-0 flex justify-center md:justify-end w-full md:w-auto mb-4 md:mb-0">
               {/* Logo */}
-              <Link href="/" className="block right-" aria-label="Cruip">
-            <Image  src={logo}  alt="Features 03" width={120} height={120} />
+              <Link href="/" className="block" aria-label="Cruip">
+            <Image  src={logo}  alt="Features 03" width={100} height={100} className="md:w-[120px] md:h-[120px]" />
               </Link>
             </div>
 
