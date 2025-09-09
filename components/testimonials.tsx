@@ -1,55 +1,62 @@
 import Image from 'next/image'
 
-import photo from '@/public/images/council-logo.png'
+import aalia from '@/public/images/supercore/aalia.png'
+import aryan from '@/public/images/supercore/aryan.png'
+import naman from '@/public/images/supercore/naman.png'
+import shreshtha from '@/public/images/supercore/shreshtha.png'
+import tushita from '@/public/images/supercore/tushita.png'
+import vansh from '@/public/images/supercore/vansh.png'
+import yuvanesh from '@/public/images/supercore/yuvanesh.png'
+
 
 const teamMembers = [
   {
     name: "Vansh Chheda",
     title: "General Secretary",
     quote: "— Steering the team with vision, unity, and purpose.",
-    image: photo,
+    image: vansh,
     linkedin: "https://www.linkedin.com/in/vansh-chheda-560957245/",
   },
   {
     name: "Aryan Bondgulwar",
     title: "Joint General Secretary - Technical",
     quote: "— Engineering innovation, one idea at a time.",
-    image: photo,
+    image: aryan,
     linkedin: "https://www.linkedin.com/in/aryan-bondgulwar/",
   },
   {
     name: "Tushita Shetty",
     title: "Joint General Secretary - Editorial & Culture",
     quote: "— Amplifying voices, celebrating stories, shaping culture.",
-    image: photo,
+    image: tushita,
     linkedin: "https://www.linkedin.com/in/tushita-shetty/",
   },
   {
     name: "Shreshtha Bindal",
     title: "Joint General Secretary - Contingent Leader",
     quote: "— Leading with spirit, competing with pride.",
-    image: photo,
+    image: shreshtha,
     linkedin: "https://www.linkedin.com/in/shreshthabindal/",
   },
   {
     name: "Aalia Dandawala",
     title: "Joint General Secretary - Sustainable Development Goals",
     quote: "— Driving impact with purpose and sustainability.",
-    image: photo,
+    image: aalia,
     linkedin: "https://www.linkedin.com/in/aaliafatema/",
   },
   {
     name: "Yuvanesh Gopinath",
     title: "Joint General Secretary - Alumni",
     quote: "— Bridging legacies, building futures.",
-    image: photo,
+    image: yuvanesh,
     linkedin: "https://www.linkedin.com/in/yuvanesh-gopinath/",
   },
   {
     name: "Naman Bhatia",
     title: "Joint General Secretary - Sports",
     quote: "— Fueling passion, fostering team spirit.",
-    image: photo,
+    image: naman,
     linkedin: "https://jkartik.in/",
   },
 ];

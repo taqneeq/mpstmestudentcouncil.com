@@ -2,7 +2,6 @@ import { committeesData } from "@/lib/committeesData";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 
-import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 
 export async function generateStaticParams() {
@@ -50,7 +49,6 @@ export default function CommitteePage({
 
   return (
     <>
-      <Header />
       <main className=" text-white min-h-screen px-4 sm:px-8 py-16">
         <div className="max-w-4xl mx-auto flex flex-col items-center text-left gap-12">
           <h1 className="text-5xl font-bold tracking-tight">

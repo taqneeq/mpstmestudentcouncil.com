@@ -11,55 +11,59 @@ const Header: React.FC = () => {
   const pathname = usePathname()
   const isHome = pathname === '/'
 
-    return (
-      <header className="absolute w-full z-30">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="flex items-center justify-between mt-10 h-20">
+  return (
+    <header className="w-full z-30">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
+        {/* Top bar with back button and logo centered */}
+        <div className="relative flex items-center justify-center h-24">
+          {/* Back Button (only show if not home) */}
           {!isHome && (
-              <button
-                onClick={() => router.back()}
-                className="ml-4 p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
-                aria-label="Go back"
-                title="Go back"
-              >
-                {/* Using Heroicons ChevronLeft, you can replace with any icon */}
-                <ChevronLeftIcon className="w-6 h-6 text-gray-700 dark:text-gray-300" />
-              </button>
-            )}
+            <button
+              onClick={() => router.back()}
+              className="absolute left-0 p-2 rounded-full"
+              aria-label="Go back"
+              title="Go back"
+            >
+              <ChevronLeftIcon className="w-6 h-6" />
+            </button>
+          )}
 
-            {/* Desktop navigation */}
-            <nav className="hidden md:flex md:grow">
-              {/* Desktop sign in links */}
-              <ul className="flex grow justify-end flex-wrap items-center">
-                {/* <li>
-                  <Link
-                    href="https://prabir.in"
-                    className="font-medium text-yellow-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                  >
-                    Clubs & Committies 
-                  </Link>
-                
-                </li> */}
-                
-                
-              </ul>
-            </nav>
-
-            <MobileMenu />
-            
-            {/* Site branding */}
-            <div className="shrink-0 mr-4 md:mr-0 flex justify-center md:justify-end w-full md:w-auto mb-4 md:mb-0">
-              {/* Logo */}
-              <Link href="/" className="block" aria-label="Cruip">
-            <Image  src={logo}  alt="Features 03" width={100} height={100} className="md:w-[120px] md:h-[120px]" />
-              </Link>
-            </div>
-
-          </div>
+          {/* Logo - always centered */}
+          <Link href="/" aria-label="Council Home">
+            <Image
+              src={logo}
+              alt="Council Logo"
+              width={100}
+              height={100}
+              className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] object-contain"
+            />
+          </Link>
         </div>
-      </header>
-    )
-  }
+
+        {/* Navigation Row (below logo) */}
+        <div className="flex items-center justify-between h--10">
+          {/* Placeholder or spacer for symmetry */}
+          <div className="w-6" />
+
+          {/* Desktop navigation (customize as needed) */}
+          <nav className="hidden md:flex">
+            <ul className="flex space-x-4 items-center">
+              {/* Example nav item */}
+              {/* <li>
+                <Link href="/clubs" className="text-sm text-gray-700 hover:underline">
+                  Clubs & Committees
+                </Link>
+              </li> */}
+            </ul>
+          </nav>
+
+          {/* Mobile Menu */}
+          <MobileMenu />
+        </div>
+      </div>
+    </header>
+  )
+}
 
 export default Header

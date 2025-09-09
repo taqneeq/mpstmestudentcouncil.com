@@ -34,11 +34,12 @@ export default function RootLayout({
         <script defer src="https://umami.mpst.me/script.js" data-website-id="104c14c4-cd4c-46ad-abfa-8aa6432409bb"></script>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
-          {children}
+          <div className="-mt-20"> {/* negative margin to pull children up */}
+            {children}
+          </div>
           {/* <Banner /> */}
         </div>
       </body>
     </html>
   )
 }
- 
